@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="nav-brand">SegFormer3D</a>
+            <div class="nav-links">
+                <a href="#abstract">Abstract</a>
+                <a href="#results">Results</a>
+                <a href="#quantitative">Benchmarks</a>
+                <a href="#method">Method</a>
+                <a href="#comparison">Efficiency</a>
+                <a href="#citation">Citation</a>
+            </div>
+        </div>
+    </nav>
+
     <div class="container">
         <!-- Header -->
         <header>
@@ -44,7 +59,7 @@
         </header>
 
         <!-- Abstract -->
-        <section class="abstract">
+        <section id="abstract" class="abstract">
             <h2>Abstract</h2>
             <p>
                 The adoption of Vision Transformers (ViTs) represents a significant advancement in 3D Medical Image segmentation. 
@@ -78,7 +93,7 @@
         </section>
 
         <!-- Qualitative Results -->
-        <section class="results">
+        <section id="results" class="results">
             <h2>Qualitative Results</h2>
             <p class="section-intro">
                 We compare SegFormer3D (highlighted in green) against state-of-the-art baselines on three medical imaging datasets. 
@@ -120,7 +135,7 @@
         </section>
 
         <!-- Quantitative Results -->
-        <section class="quantitative">
+        <section id="quantitative" class="quantitative">
             <h2>Quantitative Results</h2>
             
             <div class="tables-grid">
@@ -270,7 +285,7 @@
         </section>
 
         <!-- Method Overview -->
-        <section class="method">
+        <section id="method" class="method">
             <h2>Method Overview</h2>
             
             <div class="method-grid">
@@ -312,7 +327,7 @@
         </section>
 
         <!-- Model Comparison -->
-        <section class="comparison">
+        <section id="comparison" class="comparison">
             <h2>Model Efficiency Comparison</h2>
             <div class="comparison-table">
                 <table>
@@ -361,7 +376,7 @@
         </section>
 
         <!-- Citation -->
-        <section class="citation">
+        <section id="citation" class="citation">
             <h2>Citation</h2>
             <pre><code>@inproceedings{perera2024segformer3d,
   title={SegFormer3D: an Efficient Transformer for 3D Medical Image Segmentation},
