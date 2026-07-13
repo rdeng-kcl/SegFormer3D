@@ -68,6 +68,27 @@ class DiceLoss(nn.Module):
 
 
 ###########################################################################
+class DiceLossOneHot(nn.Module):
+    """Dice loss for volumetric segmentation."""
+    
+    def __init__(self) -> None:
+        super().__init__()
+        self._loss = losses.DiceLoss(to_onehot_y=True, sigmoid=True)
+
+    def forward(self, predicted: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
+        """Compute Dice loss.
+        
+        Args:
+            predicted: Model predictions (B, C, D, H, W)
+            target: Ground truth labels (B, C, D, H, W)
+            
+        Returns:
+            Scalar loss tensor
+        """
+        return self._loss(predicted, target)
+
+
+###########################################################################
 class DiceCELoss(nn.Module):
     """Combined Dice and Cross-Entropy loss for robust segmentation."""
     
@@ -106,6 +127,7 @@ def build_loss_fn(loss_type: str, loss_args: Optional[Dict] = None) -> nn.Module
         "crossentropy": CrossEntropyLoss,
         "binarycrossentropy": BinaryCrossEntropyWithLogits,
         "dice": DiceLoss,
+        "diceonehot": DiceLossOneHot,
         "diceCE": DiceCELoss,
     }
     
