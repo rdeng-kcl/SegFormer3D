@@ -73,7 +73,7 @@ class DiceLossOneHot(nn.Module):
     
     def __init__(self) -> None:
         super().__init__()
-        self._loss = losses.DiceLoss(to_onehot_y=True, sigmoid=True)
+        self._loss = losses.DiceLoss(include_background=False, to_onehot_y=True, sigmoid=True)
 
     def forward(self, predicted: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
         """Compute Dice loss.
