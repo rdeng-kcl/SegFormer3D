@@ -1,5 +1,7 @@
 import monai.transforms as transforms
 from typing import Any
+import warnings
+warnings.filterwarnings("ignore", message=".*unable to generate class balanced samples.*")
 
 #######################################################################################
 def build_augmentations(train: bool = True) -> transforms.Compose:
@@ -29,12 +31,20 @@ def build_augmentations(train: bool = True) -> transforms.Compose:
                 mode="constant"
             ),
             # Random spatial cropping - generates crops per volume for data efficiency
-            transforms.RandSpatialCropSamplesd(
-                keys=["image", "label"], 
-                roi_size=(96, 96, 96), 
-                num_samples=1, # changed from 4 to 1 because 4 makes the batch size too large for my gpu (4GB)
-                random_center=True, 
-                random_size=False
+            # transforms.RandSpatialCropSamplesd(
+            #     keys=["image", "label"], 
+            #     roi_size=(96, 96, 96), 
+            #     num_samples=1, # changed from 4 to 1 because 4 makes the batch size too large for my gpu (4GB)
+            #     random_center=True, 
+            #     random_size=False
+            # ),
+            transforms.RandCropByPosNegLabeld(
+                keys=["image", "label"],
+                label_key="label",
+                spatial_size=(96, 96, 96),
+                pos=0.8,       # 80% chance of centering on foreground (vertebrae)
+                neg=0.2,       # 20% chance of centering purely on background
+                num_samples=1,
             ),
             # Random horizontal flip for geometric augmentation
             transforms.RandFlipd(
