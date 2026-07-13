@@ -22,7 +22,13 @@ def build_augmentations(train: bool = True) -> transforms.Compose:
     """
     if train:
         train_transform = [
-            # Random spatial cropping - generates 4 crops per volume for data efficiency
+            # Ensure volumes are at least 96x96x96 by padding smaller dimensions
+            transforms.SpatialPadd(
+                keys=["image", "label"],
+                spatial_size=(96, 96, 96),
+                mode="constant"
+            ),
+            # Random spatial cropping - generates crops per volume for data efficiency
             transforms.RandSpatialCropSamplesd(
                 keys=["image", "label"], 
                 roi_size=(96, 96, 96), 
@@ -62,8 +68,13 @@ def build_augmentations(train: bool = True) -> transforms.Compose:
         ]
         return transforms.Compose(train_transform)
     else:
-        # Minimal validation transforms - only ensure type consistency
+        # Minimal validation transforms - only ensure type consistency and minimum size
         val_transform = [
+            transforms.SpatialPadd(
+                keys=["image", "label"],
+                spatial_size=(96, 96, 96),
+                mode="constant"
+            ),
             transforms.EnsureTyped(
                 keys=["image", "label"], 
                 track_meta=False
