@@ -199,18 +199,23 @@ class Segmentation_Trainer:
                     raw_data["image"],
                     raw_data["label"],
                 )
-                # forward pass
+                # forward pass using sliding window inference to support arbitrary shaped inputs
                 if use_ema:
-                    predicted = self.ema_model.forward(data)
+                    val_model = self.ema_model
                 else:
-                    predicted = self.model.forward(data)
+                    val_model = self.model
+
+                predicted = self.sliding_window_inference.forward(data, val_model)
 
                 # calculate loss (detach to avoid memory accumulation)
-                loss = self.criterion(predicted, labels)
+                loss = self.criterion(predicted, labels.cpu())
 
                 # calculate metrics
                 if self.calculate_metrics:
-                    mean_dice = self._calc_dice_metric(data, labels, use_ema)
+                    mean_dice = self.sliding_window_inference.calc_dice_metric(
+                        predicted, labels.cpu()
+                    )
+                    # mean_dice = self._calc_dice_metric(data, labels, use_ema)
                     # keep track of number of total correct
                     total_dice += mean_dice
 

@@ -58,15 +58,31 @@ class SlidingWindowInference:
         self.dice_metric.reset()
         
         # Perform sliding window inference
+        logits = self.forward(val_inputs, model)
+        return self.calc_dice_metric(logits, val_labels.cpu())
+
+    def forward(
+        self, 
+        val_inputs: torch.Tensor, 
+        model: nn.Module
+    ) -> torch.Tensor:
         with torch.inference_mode():  # More efficient than no_grad for inference
             logits = sliding_window_inference(
                 inputs=val_inputs,
                 roi_size=self.roi,
                 sw_batch_size=self.sw_batch_size,
                 predictor=model,
-                overlap=0.5,
+                overlap=0.1,
+                sw_device="cuda",
+                device="cpu"
             )
-        
+        return logits
+
+    def calc_dice_metric(
+        self,
+        logits: torch.Tensor,
+        val_labels: torch.Tensor,
+    ) -> float:
         # Decollate and post-process predictions
         val_labels_list = decollate_batch(val_labels)
         val_outputs_list = decollate_batch(logits)
