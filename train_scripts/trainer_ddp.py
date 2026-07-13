@@ -1,4 +1,5 @@
 import os
+import time
 import torch
 import evaluate
 from tqdm import tqdm
@@ -273,13 +274,23 @@ class Segmentation_Trainer:
             self.current_epoch = epoch
             self._update_scheduler()
 
+            if self.num_epochs == 1:
+                t = time.time()
+
             # run a single training step
             train_loss = self._train_step()
             self.epoch_train_loss = train_loss
 
+            if self.num_epochs == 1:
+                self.accelerator.print(f'training time: {time.time() - t:.1f} seconds')
+                t = time.time()
+
             # run a single validation step
             val_loss = self._val_step(use_ema=False)
             self.epoch_val_loss = val_loss
+
+            if self.num_epochs == 1:
+                self.accelerator.print(f'validation time: {time.time() - t:.1f} seconds')
 
             # if enabled run ema every x steps
             self._val_ema_model()
