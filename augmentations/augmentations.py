@@ -26,7 +26,7 @@ def build_augmentations(train: bool = True) -> transforms.Compose:
             transforms.RandSpatialCropSamplesd(
                 keys=["image", "label"], 
                 roi_size=(96, 96, 96), 
-                num_samples=4, 
+                num_samples=1, # changed from 4 to 1 because 4 makes the batch size too large for my gpu (4GB)
                 random_center=True, 
                 random_size=False
             ),
