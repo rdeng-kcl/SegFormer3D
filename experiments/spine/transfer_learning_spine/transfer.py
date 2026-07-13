@@ -5,7 +5,7 @@ from torchinfo import summary
 
 sys.path.append("../../../")
 import warnings
-warnings.filterwarnings("ignore", category=UserWarning, module="monai.utils.module") # ignore monai warnings (not working)
+warnings.filterwarnings("ignore", category=UserWarning, module="monai.utils.module") # ignore monai warnings
 
 import yaml
 import torch
