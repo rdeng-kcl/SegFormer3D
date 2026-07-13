@@ -1,0 +1,111 @@
+# wandb parameters
+project: Segformer3D_Spine
+wandb_parameters:
+  mode: "online" # set this to "online" if you want to log to wandb
+  entity: rdeng-kcl-robotics
+  group: spine_seg
+  name: segformer3d_adamw_diceloss
+  resume: False
+  tags: ["rdeng-kcl-robotics", "dice", "b0_model", "adamw"]
+
+# model parameters
+model_name: segformer3d
+model_parameters:
+    in_channels: 1
+    sr_ratios: [4, 2, 1, 1]
+    embed_dims: [32, 64, 160, 256]
+    patch_kernel_size: [7, 3, 3, 3]
+    patch_stride: [4, 2, 2, 2]
+    patch_padding: [3, 1, 1, 1]
+    mlp_ratios: [4, 4, 4, 4]
+    num_heads: [1, 2, 5, 8]
+    depths: [2, 2, 2, 2]
+    num_classes: 26
+    decoder_dropout: 0.0
+    decoder_head_embedding_dim: 256
+
+# loss function
+loss_fn:
+  loss_type: "diceonehot"
+  loss_args: None
+
+# optimizer
+optimizer:
+  optimizer_type: "adamw"
+  optimizer_args:
+    lr: 0.0001
+    weight_decay: 0.01
+
+# schedulers
+warmup_scheduler:
+  enabled: True # should be always true
+  warmup_epochs: 20
+
+train_scheduler:
+  scheduler_type: 'cosine_annealing_wr'
+  scheduler_args:
+    t_0_epochs: 400
+    t_mult: 1
+    min_lr: 0.000006
+
+# (Not fully implemented yet) eponential moving average
+ema:
+  enabled: False
+  ema_decay: 0.999
+  val_ema_every: 1
+
+sliding_window_inference:
+  sw_batch_size: 5
+  roi: [96, 96, 96]
+
+# gradient clipping (not implemented yet)
+clip_gradients:
+  enabled: False
+  clip_gradients_value: 0.1
+
+# training hyperparameters
+training_parameters:
+  seed: 42
+  num_epochs: 800
+  cutoff_epoch: 400
+  load_optimizer: False
+  print_every: 200  # num of data
+  calculate_metrics: True
+  grad_accumulate_steps: 1 # default: 1
+  checkpoint_save_dir: "model_checkpoints/best_dice_checkpoint"
+  load_checkpoint: # not implemented yet
+    load_full_checkpoint: False
+    load_model_only: False
+    load_checkpoint_path: None
+
+# dataset args
+dataset_parameters:
+  dataset_type: "spine_seg"
+  train_dataset_args:
+    root: "../../../data/spine"
+    train: True
+    # use fold 0 for testing small dataset, else null for full training
+    fold_id: null
+    # fold_id: 0
+
+
+  val_dataset_args:
+    root: "../../../data/spine"
+    train: False
+    # use fold 0 for testing small dataset, else null for full training
+    fold_id: null
+    # fold_id: 0
+
+  train_dataloader_args:
+    batch_size: 5
+    shuffle: True
+    num_workers: 2
+    drop_last: True
+    pin_memory: True
+
+  val_dataloader_args:
+    batch_size: 1
+    shuffle: False
+    num_workers: 2
+    drop_last: False
+    pin_memory: True
