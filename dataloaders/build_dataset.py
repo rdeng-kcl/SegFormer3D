@@ -29,6 +29,15 @@ def build_dataset(dataset_type: str, dataset_args: Dict):
             fold_id=dataset_args["fold_id"],
         )
         return dataset
+    elif dataset_type == "spine_seg":
+        from .spine_seg import SpineDataset
+        dataset = SpineDataset(
+            root_dir=dataset_args["root"],
+            is_train=dataset_args["train"],
+            transform=build_augmentations(dataset_args["train"]),
+            fold_id=dataset_args["fold_id"],
+        )
+        return dataset
     else:
         raise ValueError(
             "only brats2021 and brats2017 segmentation is currently supported!"
@@ -56,6 +65,6 @@ def build_dataloader(
         shuffle=dataloader_args["shuffle"],
         num_workers=dataloader_args["num_workers"],
         drop_last=dataloader_args["drop_last"],
-        pin_memory=True,
+        pin_memory=dataloader_args["pin_memory"],
     )
     return dataloader
