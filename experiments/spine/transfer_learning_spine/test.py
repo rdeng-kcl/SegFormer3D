@@ -47,7 +47,7 @@ if __name__ == '__main__':
     )
 
     logits = sliding_window_inference.forward(image.to(cuda).unsqueeze(0), model.to(cuda)).squeeze(0)
-    predicted = sliding_window_inference.post_transform(logits).cpu().to(torch.int8)
+    predicted = sliding_window_inference.post_transform(logits).cpu().as_tensor().to(torch.int8)
 
     torch.save(predicted, "predicted.pt")
 
