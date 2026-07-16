@@ -71,7 +71,7 @@ def training_lr_scheduler(config: Dict, optimizer: optim.Optimizer) -> LRSchedul
     elif scheduler_type == "poly_lr":
         scheduler = optim.lr_scheduler.PolynomialLR(
             optimizer=optimizer,
-            total_iters=5,
+            total_iters=config["training_parameters"]["num_epochs"],
             power=scheduler_args["power"],
             last_epoch=-1,
         )
