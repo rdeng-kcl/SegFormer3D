@@ -6,7 +6,7 @@ wandb_parameters:
   group: spine_seg
   name: segformer3d_adamw_diceloss
   resume: False
-  tags: ["rdeng-kcl-robotics", "dice", "b0_model", "adamw"]
+  tags: ["rdeng-kcl-robotics", "dice_ce", "b0_model", "adamw", "backgroud"]
 
 # model parameters
 model_name: segformer3d
@@ -26,14 +26,14 @@ model_parameters:
 
 # loss function
 loss_fn:
-  loss_type: "diceonehot"
+  loss_type: "diceCEonehot"
   loss_args: None
 
 # optimizer
 optimizer:
   optimizer_type: "adamw"
   optimizer_args:
-    lr: 0.0001
+    lr: 0.00003
     weight_decay: 0.01
 
 # schedulers
@@ -42,11 +42,13 @@ warmup_scheduler:
   warmup_epochs: 20
 
 train_scheduler:
-  scheduler_type: 'cosine_annealing_wr'
+  # scheduler_type: 'cosine_annealing_wr'
+  scheduler_type: "poly_lr"
   scheduler_args:
-    t_0_epochs: 400
-    t_mult: 1
-    min_lr: 0.000006
+    # t_0_epochs: 400
+    # t_mult: 1
+    # min_lr: 0.000006
+    power: 0.9  # from example
 
 # (Not fully implemented yet) eponential moving average
 ema:
@@ -65,10 +67,11 @@ clip_gradients:
 
 # training hyperparameters
 training_parameters:
-  seed: 42
-  num_epochs: 800
-  cutoff_epoch: 400
+  seed: 0
+  num_epochs: 1000
+  cutoff_epoch: 600
   load_optimizer: False
+  save_every: 50
   print_every: 200  # num of data
   calculate_metrics: True
   grad_accumulate_steps: 1 # default: 1
