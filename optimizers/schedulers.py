@@ -20,7 +20,7 @@ def warmup_lr_scheduler(config: Dict, optimizer: optim.Optimizer) -> LRScheduler
     """
     warmup_epochs = config["warmup_scheduler"]["warmup_epochs"]
     lambda1 = lambda epoch: (epoch + 1) * 1.0 / warmup_epochs
-    scheduler = optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda1, verbose=False)
+    scheduler = optim.lr_scheduler.LambdaLR(optimizer, lr_lambda=lambda1)
     return scheduler
 
 
