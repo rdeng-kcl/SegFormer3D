@@ -13,7 +13,7 @@ from dataloaders.build_dataset import build_dataset, build_dataloader
 from matplotlib import pyplot as plt
 from matplotlib.colors import ListedColormap, BoundaryNorm
 
-sys.path.append("C:/Users/Ryan Deng/SegFormer3D/experiments/brats_2017/template_experiment")
+sys.path.append("../../brats_2017/template_experiment")
 from run_experiment import load_config
 from metrics.segmentation_metrics import SlidingWindowInference
 from viewer import SliceViewer
@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     num = int(sys.argv[1]) if len(sys.argv) > 1 else 0
     case_id = f'case_{num:04d}'
-    output_dir = Path('C:/Users/Ryan Deng/SegFormer3D/data/spine')
+    output_dir = Path('../../../data/spine')
     image_path = output_dir / 'preprocessed' / case_id / f'{case_id}_image.pt'
     label_path = output_dir / 'preprocessed' / case_id / f'{case_id}_label.pt'
 
@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     # load model
     model = build_architecture(config)
-    checkpoint_file = "C:/Users/Ryan Deng/SegFormer3D/experiments/spine/transfer_learning_spine/model_checkpoints/best_dice_checkpoint_t0/pytorch_model.bin"
+    checkpoint_file = "model_checkpoints/background_yes_failed/pytorch_model.bin"
     state_dict = torch.load(checkpoint_file, map_location="cpu")
     model.load_state_dict(state_dict)
 

@@ -82,7 +82,7 @@ def launch_transfer_learning(config_path) -> Dict:
     model = build_architecture(config)
 
     # load trained weights
-    checkpoint_file = "C:\\Users\\Ryan Deng\\SegFormer3D\\experiments\\brats_2017\\test_trained_brats_2017\\auther_trained\\best_segformer3d_brats_performance.pth"
+    checkpoint_file = "../../brats_2017/test_trained_brats_2017/auther_trained/best_segformer3d_brats_performance.pth"
     state_dict = torch.load(checkpoint_file, map_location="cpu")
 
     # average the weights across the 4 channels for single channel input
