@@ -33,7 +33,7 @@ class SlidingWindowInference:
         self.post_transform = Compose(
             [
                 Activations(sigmoid=True),
-                AsDiscrete(argmax=False, threshold=0.5),
+                AsDiscrete(argmax=True, threshold=0.5),
             ]
         )
         self.sw_batch_size = sw_batch_size
