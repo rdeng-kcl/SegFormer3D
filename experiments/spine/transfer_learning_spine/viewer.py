@@ -1,3 +1,4 @@
+import os
 import sys
 from pathlib import Path
 import torch
@@ -44,6 +45,7 @@ if __name__ == "__main__":
     output_dir = Path('C:/Users/Ryan Deng/SegFormer3D/data/spine')
     image_path = output_dir / 'preprocessed' / case_id / f'{case_id}_image.pt'
     label_path = output_dir / 'preprocessed' / case_id / f'{case_id}_label.pt'
+    predicted_path = 'predicted.pt' if os.path.exists('predicted.pt') else label_path
 
     # load data
     image = torch.load(image_path).cpu().numpy()
@@ -54,13 +56,18 @@ if __name__ == "__main__":
     label = label[0, ...]
     label = np.flip(label.transpose(2, 0, 1), axis=(1, 2))
 
+    predicted = torch.load(predicted_path).cpu().numpy()
+    predicted = predicted[0, ...]
+    predicted = np.flip(predicted.transpose(2, 0, 1), axis=(1, 2))
+
     c10 = plt.cm.tab10(np.linspace(0, 1, 10))
     c26 = np.vstack((np.array([[0,0,0,1]]), c10, c10, c10[:5, :]))
     cmap_custom = ListedColormap(c26)
     norm_custom = BoundaryNorm(np.arange(0, 27) - 0.5, cmap_custom.N)
 
     # show image and label
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(11, 9))
+    fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 9))
     vi = SliceViewer(image, fig, ax1)
     vl = SliceViewer(label, fig, ax2, cmap=cmap_custom, norm=norm_custom, interpolation='nearest')
+    vp = SliceViewer(predicted, fig, ax3, cmap=cmap_custom, norm=norm_custom, interpolation='nearest')
     plt.show()
