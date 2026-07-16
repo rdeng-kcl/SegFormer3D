@@ -29,8 +29,8 @@ if __name__ == '__main__':
 
     # load data
     cuda = "cuda:0"
-    image = torch.load(image_path).to(cuda).unsqueeze(0)
-    label = torch.load(label_path)
+    image = torch.load(image_path).cpu()
+    label = torch.load(label_path).cpu()
 
     config = load_config("config.yaml")
 
@@ -40,24 +40,24 @@ if __name__ == '__main__':
     state_dict = torch.load(checkpoint_file, map_location="cpu")
     model.load_state_dict(state_dict)
 
-    model = model.to(cuda)
-    model = model.eval()
-
+    model.eval()
     sliding_window_inference = SlidingWindowInference(
         config["sliding_window_inference"]["roi"],
         config["sliding_window_inference"]["sw_batch_size"],
     )
 
-    logits = sliding_window_inference.forward(image, model).squeeze(0)
-    predicted = sliding_window_inference.post_transform(logits)
+    logits = sliding_window_inference.forward(image.to(cuda).unsqueeze(0), model.to(cuda)).squeeze(0)
+    predicted = sliding_window_inference.post_transform(logits).cpu()
 
-    image = image.cpu().numpy()
-    image = image[0, 0, ...]
+    torch.save(predicted, "predicted.pt")
+
+    image = image.numpy()
+    image = image[0, ...]
     image = np.flip(image.transpose(2, 0, 1), axis=(1, 2))
-    label = label.cpu().numpy()
+    label = label.numpy()
     label = label[0, ...]
     label = np.flip(label.transpose(2, 0, 1), axis=(1, 2))
-    predicted = predicted.cpu().numpy()
+    predicted = predicted.numpy()
     predicted = predicted[0, ...]
     predicted = np.flip(predicted.transpose(2, 0, 1), axis=(1, 2))
 
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     norm_custom = BoundaryNorm(np.arange(0, 27) - 0.5, cmap_custom.N)
 
     # show image and label
-    fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(11, 14))
+    fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(15, 9))
     vi = SliceViewer(image, fig, ax1)
     vl = SliceViewer(label, fig, ax2, cmap=cmap_custom, norm=norm_custom, interpolation='nearest')
     vp = SliceViewer(predicted, fig, ax3, cmap=cmap_custom, norm=norm_custom, interpolation='nearest')
