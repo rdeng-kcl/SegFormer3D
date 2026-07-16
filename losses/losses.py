@@ -110,6 +110,28 @@ class DiceCELoss(nn.Module):
 
 
 ###########################################################################
+class DiceCELossOneHot(nn.Module):
+    """Combined Dice and Cross-Entropy loss for robust segmentation."""
+    
+    def __init__(self) -> None:
+        super().__init__()
+        self._loss = losses.DiceCELoss(include_background=True, to_onehot_y=True, sigmoid=True,
+                                       lambda_dice=1.0, lambda_ce=1.0)
+
+    def forward(self, predicted: torch.Tensor, target: torch.Tensor) -> torch.Tensor:
+        """Compute combined Dice-CE loss.
+        
+        Args:
+            predicted: Model predictions (B, C, D, H, W)
+            target: Ground truth labels (B, C, D, H, W)
+            
+        Returns:
+            Scalar loss tensor
+        """
+        return self._loss(predicted, target)
+
+
+###########################################################################
 def build_loss_fn(loss_type: str, loss_args: Optional[Dict] = None) -> nn.Module:
     """Factory function to build loss functions.
     
@@ -129,6 +151,7 @@ def build_loss_fn(loss_type: str, loss_args: Optional[Dict] = None) -> nn.Module
         "dice": DiceLoss,
         "diceonehot": DiceLossOneHot,
         "diceCE": DiceCELoss,
+        "diceCEonehot": DiceCELossOneHot,
     }
     
     if loss_type not in loss_registry:
