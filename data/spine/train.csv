@@ -1,1075 +1,1075 @@
 data_path,case_name
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0992,case_0992
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0696,case_0696
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0673,case_0673
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0327,case_0327
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1175,case_1175
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0770,case_0770
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0922,case_0922
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0786,case_0786
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0747,case_0747
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0040,case_0040
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0805,case_0805
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0067,case_0067
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0411,case_0411
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1131,case_1131
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0830,case_0830
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0160,case_0160
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1003,case_1003
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0999,case_0999
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0809,case_0809
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0677,case_0677
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0204,case_0204
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1146,case_1146
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0180,case_0180
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1221,case_1221
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0942,case_0942
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1212,case_1212
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0920,case_0920
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0588,case_0588
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0812,case_0812
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0346,case_0346
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0000,case_0000
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0916,case_0916
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0338,case_0338
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0130,case_0130
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0280,case_0280
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0017,case_0017
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1224,case_1224
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0954,case_0954
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0334,case_0334
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0684,case_0684
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0606,case_0606
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0474,case_0474
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0516,case_0516
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0109,case_0109
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0075,case_0075
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0727,case_0727
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0088,case_0088
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0010,case_0010
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0259,case_0259
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0269,case_0269
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1063,case_1063
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1136,case_1136
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0996,case_0996
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0938,case_0938
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0882,case_0882
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0011,case_0011
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0728,case_0728
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0467,case_0467
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0525,case_0525
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0633,case_0633
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0848,case_0848
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0982,case_0982
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1012,case_1012
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0125,case_0125
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0496,case_0496
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1039,case_1039
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0609,case_0609
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0254,case_0254
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0296,case_0296
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0207,case_0207
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0238,case_0238
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0713,case_0713
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0509,case_0509
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0518,case_0518
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0897,case_0897
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0447,case_0447
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0746,case_0746
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0215,case_0215
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0929,case_0929
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1217,case_1217
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0541,case_0541
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0783,case_0783
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0285,case_0285
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1126,case_1126
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0290,case_0290
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0266,case_0266
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0504,case_0504
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0772,case_0772
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0014,case_0014
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0908,case_0908
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0589,case_0589
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1184,case_1184
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0477,case_0477
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0268,case_0268
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0647,case_0647
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0051,case_0051
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0576,case_0576
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0624,case_0624
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0218,case_0218
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0479,case_0479
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0978,case_0978
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0507,case_0507
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0481,case_0481
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0330,case_0330
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1218,case_1218
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0148,case_0148
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0465,case_0465
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0631,case_0631
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0495,case_0495
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0149,case_0149
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0090,case_0090
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1112,case_1112
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0654,case_0654
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0431,case_0431
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1087,case_1087
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0745,case_0745
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0185,case_0185
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0487,case_0487
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0785,case_0785
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0979,case_0979
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0184,case_0184
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0305,case_0305
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1033,case_1033
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1181,case_1181
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0397,case_0397
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1158,case_1158
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1156,case_1156
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0450,case_0450
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0241,case_0241
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0608,case_0608
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0983,case_0983
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1211,case_1211
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0113,case_0113
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1167,case_1167
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0449,case_0449
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0046,case_0046
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0216,case_0216
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1079,case_1079
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0571,case_0571
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0189,case_0189
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0384,case_0384
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0695,case_0695
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0302,case_0302
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0303,case_0303
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0085,case_0085
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1205,case_1205
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0851,case_0851
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1166,case_1166
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0594,case_0594
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0748,case_0748
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0723,case_0723
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0820,case_0820
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0956,case_0956
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0965,case_0965
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1151,case_1151
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1113,case_1113
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0953,case_0953
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0679,case_0679
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0278,case_0278
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1172,case_1172
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1159,case_1159
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0489,case_0489
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0291,case_0291
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0595,case_0595
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1160,case_1160
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0394,case_0394
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0634,case_0634
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0963,case_0963
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0018,case_0018
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0562,case_0562
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0861,case_0861
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0635,case_0635
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0343,case_0343
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0191,case_0191
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0969,case_0969
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0326,case_0326
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0689,case_0689
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1162,case_1162
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0398,case_0398
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0834,case_0834
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0957,case_0957
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0559,case_0559
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0867,case_0867
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0412,case_0412
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0924,case_0924
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0510,case_0510
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0101,case_0101
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0118,case_0118
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0675,case_0675
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0733,case_0733
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0896,case_0896
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1069,case_1069
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0222,case_0222
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0379,case_0379
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0567,case_0567
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0891,case_0891
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0738,case_0738
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0013,case_0013
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0080,case_0080
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0706,case_0706
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0700,case_0700
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0757,case_0757
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0400,case_0400
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0393,case_0393
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0004,case_0004
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0620,case_0620
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1002,case_1002
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0208,case_0208
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1030,case_1030
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0276,case_0276
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0147,case_0147
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0308,case_0308
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0925,case_0925
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0265,case_0265
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0958,case_0958
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0665,case_0665
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0458,case_0458
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0658,case_0658
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0683,case_0683
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0206,case_0206
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0434,case_0434
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1155,case_1155
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0840,case_0840
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0372,case_0372
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0751,case_0751
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0876,case_0876
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0565,case_0565
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0764,case_0764
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0546,case_0546
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0768,case_0768
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0871,case_0871
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0145,case_0145
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0715,case_0715
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0521,case_0521
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0042,case_0042
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0774,case_0774
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0498,case_0498
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0392,case_0392
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1207,case_1207
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0858,case_0858
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1048,case_1048
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0547,case_0547
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0572,case_0572
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0950,case_0950
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0685,case_0685
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0455,case_0455
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1215,case_1215
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0795,case_0795
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0718,case_0718
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0886,case_0886
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0615,case_0615
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0705,case_0705
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0710,case_0710
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0078,case_0078
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0050,case_0050
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0348,case_0348
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0655,case_0655
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0644,case_0644
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0599,case_0599
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0232,case_0232
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0863,case_0863
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0584,case_0584
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0224,case_0224
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0469,case_0469
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1036,case_1036
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1027,case_1027
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0351,case_0351
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0281,case_0281
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0801,case_0801
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0086,case_0086
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0402,case_0402
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1114,case_1114
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0581,case_0581
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0548,case_0548
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1187,case_1187
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0775,case_0775
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0797,case_0797
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0936,case_0936
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0803,case_0803
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0719,case_0719
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1095,case_1095
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0033,case_0033
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0288,case_0288
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1173,case_1173
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0045,case_0045
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0376,case_0376
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0918,case_0918
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0089,case_0089
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0919,case_0919
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0817,case_0817
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0839,case_0839
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0135,case_0135
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0048,case_0048
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0568,case_0568
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0662,case_0662
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1107,case_1107
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0734,case_0734
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0554,case_0554
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0353,case_0353
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0583,case_0583
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0041,case_0041
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0904,case_0904
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0131,case_0131
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0792,case_0792
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0062,case_0062
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0244,case_0244
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0550,case_0550
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0691,case_0691
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0743,case_0743
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0890,case_0890
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0531,case_0531
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0749,case_0749
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0537,case_0537
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0641,case_0641
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0622,case_0622
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0600,case_0600
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0441,case_0441
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1141,case_1141
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0056,case_0056
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1004,case_1004
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0667,case_0667
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1046,case_1046
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0872,case_0872
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0490,case_0490
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1138,case_1138
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0171,case_0171
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0503,case_0503
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0251,case_0251
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0264,case_0264
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0389,case_0389
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1051,case_1051
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0478,case_0478
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0344,case_0344
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1020,case_1020
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0424,case_0424
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0001,case_0001
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0153,case_0153
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0623,case_0623
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1108,case_1108
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0461,case_0461
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0473,case_0473
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0610,case_0610
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0973,case_0973
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0028,case_0028
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0961,case_0961
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0252,case_0252
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0892,case_0892
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1021,case_1021
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1193,case_1193
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0653,case_0653
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0250,case_0250
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0242,case_0242
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0387,case_0387
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1016,case_1016
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0762,case_0762
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0234,case_0234
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1204,case_1204
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0061,case_0061
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0761,case_0761
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0508,case_0508
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1209,case_1209
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0142,case_0142
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0843,case_0843
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0485,case_0485
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0582,case_0582
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0879,case_0879
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0390,case_0390
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0574,case_0574
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0437,case_0437
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1213,case_1213
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1180,case_1180
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0585,case_0585
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0586,case_0586
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0429,case_0429
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0329,case_0329
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0659,case_0659
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0195,case_0195
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0448,case_0448
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0720,case_0720
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0253,case_0253
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0464,case_0464
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0459,case_0459
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1171,case_1171
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0418,case_0418
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0649,case_0649
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0666,case_0666
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0202,case_0202
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0026,case_0026
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0777,case_0777
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0947,case_0947
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0804,case_0804
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0529,case_0529
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0213,case_0213
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1148,case_1148
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0937,case_0937
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0553,case_0553
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0915,case_0915
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1143,case_1143
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0884,case_0884
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0712,case_0712
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0818,case_0818
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0782,case_0782
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1029,case_1029
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0701,case_0701
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0903,case_0903
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0534,case_0534
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0704,case_0704
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0209,case_0209
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1014,case_1014
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0425,case_0425
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0887,case_0887
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0315,case_0315
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0121,case_0121
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0502,case_0502
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0279,case_0279
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0596,case_0596
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1025,case_1025
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1085,case_1085
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0492,case_0492
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0991,case_0991
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1056,case_1056
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1050,case_1050
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0669,case_0669
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0371,case_0371
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0970,case_0970
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1164,case_1164
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0500,case_0500
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0616,case_0616
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0765,case_0765
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0140,case_0140
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1214,case_1214
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0362,case_0362
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1058,case_1058
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0681,case_0681
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0312,case_0312
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1031,case_1031
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0263,case_0263
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0073,case_0073
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0071,case_0071
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0520,case_0520
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0913,case_0913
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0016,case_0016
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0906,case_0906
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1220,case_1220
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1096,case_1096
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1191,case_1191
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0656,case_0656
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0373,case_0373
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1055,case_1055
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1005,case_1005
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1028,case_1028
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0807,case_0807
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0210,case_0210
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0975,case_0975
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1054,case_1054
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1038,case_1038
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0333,case_0333
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0778,case_0778
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1019,case_1019
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0923,case_0923
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0984,case_0984
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0993,case_0993
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0382,case_0382
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0396,case_0396
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0079,case_0079
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0136,case_0136
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0535,case_0535
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0106,case_0106
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0756,case_0756
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0456,case_0456
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1110,case_1110
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1042,case_1042
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0878,case_0878
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0769,case_0769
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0730,case_0730
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0642,case_0642
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0468,case_0468
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1199,case_1199
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0370,case_0370
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0661,case_0661
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0697,case_0697
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0470,case_0470
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0137,case_0137
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1116,case_1116
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0165,case_0165
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0859,case_0859
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0436,case_0436
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1189,case_1189
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1203,case_1203
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0335,case_0335
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0545,case_0545
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0855,case_0855
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0108,case_0108
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0870,case_0870
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0039,case_0039
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1152,case_1152
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0885,case_0885
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1098,case_1098
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1032,case_1032
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0133,case_0133
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0255,case_0255
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0243,case_0243
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0813,case_0813
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0304,case_0304
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0911,case_0911
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1064,case_1064
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0408,case_0408
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0971,case_0971
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0736,case_0736
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0150,case_0150
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1040,case_1040
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0672,case_0672
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0103,case_0103
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0084,case_0084
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0194,case_0194
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0406,case_0406
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0356,case_0356
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1216,case_1216
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0721,case_0721
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0668,case_0668
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0480,case_0480
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0413,case_0413
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0126,case_0126
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0962,case_0962
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0640,case_0640
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0630,case_0630
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0676,case_0676
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0753,case_0753
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0054,case_0054
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0612,case_0612
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0540,case_0540
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0482,case_0482
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0703,case_0703
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0822,case_0822
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0900,case_0900
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0092,case_0092
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0934,case_0934
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1026,case_1026
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0832,case_0832
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0156,case_0156
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1024,case_1024
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0197,case_0197
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1065,case_1065
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0337,case_0337
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1150,case_1150
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0012,case_0012
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0853,case_0853
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0438,case_0438
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0880,case_0880
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0342,case_0342
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0592,case_0592
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0771,case_0771
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0198,case_0198
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0912,case_0912
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0309,case_0309
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0611,case_0611
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0248,case_0248
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0724,case_0724
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0472,case_0472
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1134,case_1134
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0652,case_0652
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0693,case_0693
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0440,case_0440
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0637,case_0637
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0591,case_0591
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1053,case_1053
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0951,case_0951
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0132,case_0132
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0791,case_0791
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1129,case_1129
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0952,case_0952
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0717,case_0717
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0377,case_0377
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0716,case_0716
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0538,case_0538
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0345,case_0345
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1010,case_1010
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0044,case_0044
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0022,case_0022
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0627,case_0627
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0226,case_0226
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0105,case_0105
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0301,case_0301
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0837,case_0837
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0223,case_0223
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0072,case_0072
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0664,case_0664
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0877,case_0877
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0064,case_0064
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0365,case_0365
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0997,case_0997
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0579,case_0579
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0233,case_0233
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0883,case_0883
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1176,case_1176
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0966,case_0966
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0157,case_0157
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0955,case_0955
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0849,case_0849
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1119,case_1119
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1118,case_1118
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1223,case_1223
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0995,case_0995
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0386,case_0386
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0687,case_0687
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0930,case_0930
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0175,case_0175
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1142,case_1142
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1188,case_1188
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0357,case_0357
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0660,case_0660
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1043,case_1043
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1149,case_1149
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0968,case_0968
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0298,case_0298
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1101,case_1101
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0702,case_0702
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0354,case_0354
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1144,case_1144
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0808,case_0808
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1083,case_1083
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0945,case_0945
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1103,case_1103
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1222,case_1222
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0152,case_0152
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0007,case_0007
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0513,case_0513
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0816,case_0816
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1078,case_1078
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0539,case_0539
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0457,case_0457
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0328,case_0328
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1006,case_1006
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0008,case_0008
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0176,case_0176
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0286,case_0286
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0178,case_0178
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0122,case_0122
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1202,case_1202
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1124,case_1124
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0355,case_0355
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0416,case_0416
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0593,case_0593
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1071,case_1071
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0331,case_0331
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0420,case_0420
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0663,case_0663
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0560,case_0560
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0580,case_0580
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0928,case_0928
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0020,case_0020
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0688,case_0688
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0314,case_0314
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0230,case_0230
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0899,case_0899
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0395,case_0395
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0902,case_0902
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0905,case_0905
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0032,case_0032
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0692,case_0692
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0388,case_0388
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1183,case_1183
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0021,case_0021
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0750,case_0750
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0549,case_0549
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0828,case_0828
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0366,case_0366
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0144,case_0144
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1007,case_1007
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0484,case_0484
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0636,case_0636
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0824,case_0824
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0322,case_0322
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1061,case_1061
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0277,case_0277
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0515,case_0515
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1105,case_1105
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0187,case_0187
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0618,case_0618
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0682,case_0682
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0360,case_0360
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0846,case_0846
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0111,case_0111
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0114,case_0114
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0960,case_0960
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0976,case_0976
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0404,case_0404
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1104,case_1104
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1163,case_1163
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0731,case_0731
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0729,case_0729
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0939,case_0939
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0409,case_0409
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1120,case_1120
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0164,case_0164
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1140,case_1140
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0708,case_0708
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1206,case_1206
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1121,case_1121
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0895,case_0895
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0780,case_0780
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1099,case_1099
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0220,case_0220
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0514,case_0514
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0836,case_0836
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0714,case_0714
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0451,case_0451
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1037,case_1037
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0146,case_0146
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0910,case_0910
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0590,case_0590
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0076,case_0076
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0759,case_0759
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0181,case_0181
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0422,case_0422
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0760,case_0760
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0964,case_0964
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0320,case_0320
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1084,case_1084
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0967,case_0967
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0359,case_0359
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0709,case_0709
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1111,case_1111
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0776,case_0776
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0445,case_0445
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0015,case_0015
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0430,case_0430
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0512,case_0512
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0433,case_0433
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0311,case_0311
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0083,case_0083
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0629,case_0629
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0154,case_0154
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1082,case_1082
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0536,case_0536
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0519,case_0519
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0378,case_0378
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0385,case_0385
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1068,case_1068
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0740,case_0740
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0297,case_0297
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0443,case_0443
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0059,case_0059
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1015,case_1015
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0128,case_0128
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1060,case_1060
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0551,case_0551
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0319,case_0319
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0361,case_0361
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0944,case_0944
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0671,case_0671
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0053,case_0053
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0292,case_0292
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1192,case_1192
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0047,case_0047
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0031,case_0031
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0752,case_0752
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0475,case_0475
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0369,case_0369
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1045,case_1045
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1023,case_1023
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0614,case_0614
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0124,case_0124
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1135,case_1135
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0423,case_0423
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0601,case_0601
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0052,case_0052
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1194,case_1194
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0852,case_0852
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0977,case_0977
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0787,case_0787
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1062,case_1062
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0034,case_0034
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0980,case_0980
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1161,case_1161
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0557,case_0557
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0493,case_0493
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0694,case_0694
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1041,case_1041
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1093,case_1093
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1186,case_1186
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1210,case_1210
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0645,case_0645
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0102,case_0102
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0632,case_0632
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0453,case_0453
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1044,case_1044
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0587,case_0587
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0959,case_0959
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0364,case_0364
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0173,case_0173
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0857,case_0857
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0838,case_0838
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0036,case_0036
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0974,case_0974
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0038,case_0038
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0556,case_0556
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0842,case_0842
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0307,case_0307
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0628,case_0628
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0081,case_0081
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0814,case_0814
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0607,case_0607
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1049,case_1049
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0005,case_0005
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0287,case_0287
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1137,case_1137
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1094,case_1094
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0405,case_0405
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0602,case_0602
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0115,case_0115
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0617,case_0617
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0907,case_0907
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0104,case_0104
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1017,case_1017
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0868,case_0868
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1139,case_1139
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0193,case_0193
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0888,case_0888
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0799,case_0799
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0446,case_0446
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1072,case_1072
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0363,case_0363
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0070,case_0070
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1170,case_1170
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0211,case_0211
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1130,case_1130
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1102,case_1102
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1109,case_1109
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0401,case_0401
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1122,case_1122
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0201,case_0201
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0854,case_0854
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0829,case_0829
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0306,case_0306
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0271,case_0271
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1001,case_1001
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0317,case_0317
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0082,case_0082
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0873,case_0873
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0282,case_0282
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0162,case_0162
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0763,case_0763
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0358,case_0358
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0604,case_0604
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0246,case_0246
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1132,case_1132
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1086,case_1086
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0293,case_0293
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0169,case_0169
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0466,case_0466
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0646,case_0646
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1123,case_1123
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0988,case_0988
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1090,case_1090
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0810,case_0810
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0065,case_0065
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0460,case_0460
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0432,case_0432
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0283,case_0283
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0522,case_0522
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0237,case_0237
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0410,case_0410
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1011,case_1011
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0057,case_0057
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0074,case_0074
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0368,case_0368
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0240,case_0240
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0651,case_0651
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1128,case_1128
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0419,case_0419
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0686,case_0686
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0024,case_0024
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1052,case_1052
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0486,case_0486
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0869,case_0869
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0821,case_0821
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0726,case_0726
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0483,case_0483
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0917,case_0917
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0023,case_0023
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0439,case_0439
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0349,case_0349
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0225,case_0225
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0236,case_0236
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0182,case_0182
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0212,case_0212
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1208,case_1208
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0239,case_0239
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0825,case_0825
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0626,case_0626
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1197,case_1197
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0168,case_0168
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0199,case_0199
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0095,case_0095
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0091,case_0091
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0273,case_0273
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0739,case_0739
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0794,case_0794
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0107,case_0107
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1117,case_1117
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1047,case_1047
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0063,case_0063
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0932,case_0932
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1008,case_1008
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0927,case_0927
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0981,case_0981
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0831,case_0831
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0881,case_0881
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0563,case_0563
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0806,case_0806
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0247,case_0247
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0235,case_0235
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0940,case_0940
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0098,case_0098
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0049,case_0049
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0533,case_0533
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0035,case_0035
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0850,case_0850
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0462,case_0462
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1100,case_1100
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0781,case_0781
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0499,case_0499
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0300,case_0300
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0383,case_0383
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1174,case_1174
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0488,case_0488
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1179,case_1179
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0648,case_0648
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0471,case_0471
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0555,case_0555
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0435,case_0435
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1000,case_1000
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0403,case_0403
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0407,case_0407
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0986,case_0986
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0670,case_0670
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0231,case_0231
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0789,case_0789
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0621,case_0621
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0505,case_0505
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0874,case_0874
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1081,case_1081
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0542,case_0542
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0100,case_0100
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0754,case_0754
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0094,case_0094
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1089,case_1089
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1182,case_1182
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1009,case_1009
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1125,case_1125
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0037,case_0037
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0737,case_0737
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1127,case_1127
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0860,case_0860
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0941,case_0941
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1018,case_1018
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1195,case_1195
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0524,case_0524
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0844,case_0844
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1077,case_1077
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0570,case_0570
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1070,case_1070
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1067,case_1067
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0183,case_0183
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0755,case_0755
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0332,case_0332
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0603,case_0603
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0295,case_0295
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1035,case_1035
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0120,case_0120
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0174,case_0174
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0566,case_0566
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0229,case_0229
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0141,case_0141
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1097,case_1097
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0205,case_0205
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0399,case_0399
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0573,case_0573
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1165,case_1165
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0221,case_0221
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0526,case_0526
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0898,case_0898
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0866,case_0866
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0943,case_0943
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1057,case_1057
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0414,case_0414
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0811,case_0811
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0096,case_0096
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0463,case_0463
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0933,case_0933
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0544,case_0544
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0949,case_0949
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0835,case_0835
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0575,case_0575
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0800,case_0800
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0151,case_0151
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0324,case_0324
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0421,case_0421
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1168,case_1168
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0711,case_0711
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0827,case_0827
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0058,case_0058
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0841,case_0841
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0990,case_0990
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0245,case_0245
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1198,case_1198
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0341,case_0341
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0543,case_0543
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0347,case_0347
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1185,case_1185
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0506,case_0506
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1092,case_1092
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0217,case_0217
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1200,case_1200
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1133,case_1133
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0501,case_0501
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0511,case_0511
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0766,case_0766
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0380,case_0380
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0228,case_0228
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0819,case_0819
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0321,case_0321
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0167,case_0167
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0163,case_0163
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0270,case_0270
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0926,case_0926
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0784,case_0784
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0530,case_0530
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0909,case_0909
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0569,case_0569
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0901,case_0901
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0894,case_0894
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0257,case_0257
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0002,case_0002
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0415,case_0415
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1169,case_1169
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0375,case_0375
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0741,case_0741
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0093,case_0093
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0027,case_0027
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0497,case_0497
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1154,case_1154
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0417,case_0417
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1076,case_1076
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0274,case_0274
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0139,case_0139
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0350,case_0350
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0143,case_0143
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0006,case_0006
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0773,case_0773
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0427,case_0427
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0767,case_0767
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1201,case_1201
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0275,case_0275
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0117,case_0117
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0260,case_0260
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0069,case_0069
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0946,case_0946
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0517,case_0517
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0426,case_0426
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0127,case_0127
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0138,case_0138
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0256,case_0256
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_1153,case_1153
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0564,case_0564
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0077,case_0077
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0261,case_0261
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0893,case_0893
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0528,case_0528
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0134,case_0134
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0025,case_0025
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0284,case_0284
-C:\Users\Ryan Deng\SegFormer3D\data\spine\preprocessed\case_0116,case_0116
+../../../data/spine/preprocessed/case_0992,case_0992
+../../../data/spine/preprocessed/case_0696,case_0696
+../../../data/spine/preprocessed/case_0673,case_0673
+../../../data/spine/preprocessed/case_0327,case_0327
+../../../data/spine/preprocessed/case_1175,case_1175
+../../../data/spine/preprocessed/case_0770,case_0770
+../../../data/spine/preprocessed/case_0922,case_0922
+../../../data/spine/preprocessed/case_0786,case_0786
+../../../data/spine/preprocessed/case_0747,case_0747
+../../../data/spine/preprocessed/case_0040,case_0040
+../../../data/spine/preprocessed/case_0805,case_0805
+../../../data/spine/preprocessed/case_0067,case_0067
+../../../data/spine/preprocessed/case_0411,case_0411
+../../../data/spine/preprocessed/case_1131,case_1131
+../../../data/spine/preprocessed/case_0830,case_0830
+../../../data/spine/preprocessed/case_0160,case_0160
+../../../data/spine/preprocessed/case_1003,case_1003
+../../../data/spine/preprocessed/case_0999,case_0999
+../../../data/spine/preprocessed/case_0809,case_0809
+../../../data/spine/preprocessed/case_0677,case_0677
+../../../data/spine/preprocessed/case_0204,case_0204
+../../../data/spine/preprocessed/case_1146,case_1146
+../../../data/spine/preprocessed/case_0180,case_0180
+../../../data/spine/preprocessed/case_1221,case_1221
+../../../data/spine/preprocessed/case_0942,case_0942
+../../../data/spine/preprocessed/case_1212,case_1212
+../../../data/spine/preprocessed/case_0920,case_0920
+../../../data/spine/preprocessed/case_0588,case_0588
+../../../data/spine/preprocessed/case_0812,case_0812
+../../../data/spine/preprocessed/case_0346,case_0346
+../../../data/spine/preprocessed/case_0000,case_0000
+../../../data/spine/preprocessed/case_0916,case_0916
+../../../data/spine/preprocessed/case_0338,case_0338
+../../../data/spine/preprocessed/case_0130,case_0130
+../../../data/spine/preprocessed/case_0280,case_0280
+../../../data/spine/preprocessed/case_0017,case_0017
+../../../data/spine/preprocessed/case_1224,case_1224
+../../../data/spine/preprocessed/case_0954,case_0954
+../../../data/spine/preprocessed/case_0334,case_0334
+../../../data/spine/preprocessed/case_0684,case_0684
+../../../data/spine/preprocessed/case_0606,case_0606
+../../../data/spine/preprocessed/case_0474,case_0474
+../../../data/spine/preprocessed/case_0516,case_0516
+../../../data/spine/preprocessed/case_0109,case_0109
+../../../data/spine/preprocessed/case_0075,case_0075
+../../../data/spine/preprocessed/case_0727,case_0727
+../../../data/spine/preprocessed/case_0088,case_0088
+../../../data/spine/preprocessed/case_0010,case_0010
+../../../data/spine/preprocessed/case_0259,case_0259
+../../../data/spine/preprocessed/case_0269,case_0269
+../../../data/spine/preprocessed/case_1063,case_1063
+../../../data/spine/preprocessed/case_1136,case_1136
+../../../data/spine/preprocessed/case_0996,case_0996
+../../../data/spine/preprocessed/case_0938,case_0938
+../../../data/spine/preprocessed/case_0882,case_0882
+../../../data/spine/preprocessed/case_0011,case_0011
+../../../data/spine/preprocessed/case_0728,case_0728
+../../../data/spine/preprocessed/case_0467,case_0467
+../../../data/spine/preprocessed/case_0525,case_0525
+../../../data/spine/preprocessed/case_0633,case_0633
+../../../data/spine/preprocessed/case_0848,case_0848
+../../../data/spine/preprocessed/case_0982,case_0982
+../../../data/spine/preprocessed/case_1012,case_1012
+../../../data/spine/preprocessed/case_0125,case_0125
+../../../data/spine/preprocessed/case_0496,case_0496
+../../../data/spine/preprocessed/case_1039,case_1039
+../../../data/spine/preprocessed/case_0609,case_0609
+../../../data/spine/preprocessed/case_0254,case_0254
+../../../data/spine/preprocessed/case_0296,case_0296
+../../../data/spine/preprocessed/case_0207,case_0207
+../../../data/spine/preprocessed/case_0238,case_0238
+../../../data/spine/preprocessed/case_0713,case_0713
+../../../data/spine/preprocessed/case_0509,case_0509
+../../../data/spine/preprocessed/case_0518,case_0518
+../../../data/spine/preprocessed/case_0897,case_0897
+../../../data/spine/preprocessed/case_0447,case_0447
+../../../data/spine/preprocessed/case_0746,case_0746
+../../../data/spine/preprocessed/case_0215,case_0215
+../../../data/spine/preprocessed/case_0929,case_0929
+../../../data/spine/preprocessed/case_1217,case_1217
+../../../data/spine/preprocessed/case_0541,case_0541
+../../../data/spine/preprocessed/case_0783,case_0783
+../../../data/spine/preprocessed/case_0285,case_0285
+../../../data/spine/preprocessed/case_1126,case_1126
+../../../data/spine/preprocessed/case_0290,case_0290
+../../../data/spine/preprocessed/case_0266,case_0266
+../../../data/spine/preprocessed/case_0504,case_0504
+../../../data/spine/preprocessed/case_0772,case_0772
+../../../data/spine/preprocessed/case_0014,case_0014
+../../../data/spine/preprocessed/case_0908,case_0908
+../../../data/spine/preprocessed/case_0589,case_0589
+../../../data/spine/preprocessed/case_1184,case_1184
+../../../data/spine/preprocessed/case_0477,case_0477
+../../../data/spine/preprocessed/case_0268,case_0268
+../../../data/spine/preprocessed/case_0647,case_0647
+../../../data/spine/preprocessed/case_0051,case_0051
+../../../data/spine/preprocessed/case_0576,case_0576
+../../../data/spine/preprocessed/case_0624,case_0624
+../../../data/spine/preprocessed/case_0218,case_0218
+../../../data/spine/preprocessed/case_0479,case_0479
+../../../data/spine/preprocessed/case_0978,case_0978
+../../../data/spine/preprocessed/case_0507,case_0507
+../../../data/spine/preprocessed/case_0481,case_0481
+../../../data/spine/preprocessed/case_0330,case_0330
+../../../data/spine/preprocessed/case_1218,case_1218
+../../../data/spine/preprocessed/case_0148,case_0148
+../../../data/spine/preprocessed/case_0465,case_0465
+../../../data/spine/preprocessed/case_0631,case_0631
+../../../data/spine/preprocessed/case_0495,case_0495
+../../../data/spine/preprocessed/case_0149,case_0149
+../../../data/spine/preprocessed/case_0090,case_0090
+../../../data/spine/preprocessed/case_1112,case_1112
+../../../data/spine/preprocessed/case_0654,case_0654
+../../../data/spine/preprocessed/case_0431,case_0431
+../../../data/spine/preprocessed/case_1087,case_1087
+../../../data/spine/preprocessed/case_0745,case_0745
+../../../data/spine/preprocessed/case_0185,case_0185
+../../../data/spine/preprocessed/case_0487,case_0487
+../../../data/spine/preprocessed/case_0785,case_0785
+../../../data/spine/preprocessed/case_0979,case_0979
+../../../data/spine/preprocessed/case_0184,case_0184
+../../../data/spine/preprocessed/case_0305,case_0305
+../../../data/spine/preprocessed/case_1033,case_1033
+../../../data/spine/preprocessed/case_1181,case_1181
+../../../data/spine/preprocessed/case_0397,case_0397
+../../../data/spine/preprocessed/case_1158,case_1158
+../../../data/spine/preprocessed/case_1156,case_1156
+../../../data/spine/preprocessed/case_0450,case_0450
+../../../data/spine/preprocessed/case_0241,case_0241
+../../../data/spine/preprocessed/case_0608,case_0608
+../../../data/spine/preprocessed/case_0983,case_0983
+../../../data/spine/preprocessed/case_1211,case_1211
+../../../data/spine/preprocessed/case_0113,case_0113
+../../../data/spine/preprocessed/case_1167,case_1167
+../../../data/spine/preprocessed/case_0449,case_0449
+../../../data/spine/preprocessed/case_0046,case_0046
+../../../data/spine/preprocessed/case_0216,case_0216
+../../../data/spine/preprocessed/case_1079,case_1079
+../../../data/spine/preprocessed/case_0571,case_0571
+../../../data/spine/preprocessed/case_0189,case_0189
+../../../data/spine/preprocessed/case_0384,case_0384
+../../../data/spine/preprocessed/case_0695,case_0695
+../../../data/spine/preprocessed/case_0302,case_0302
+../../../data/spine/preprocessed/case_0303,case_0303
+../../../data/spine/preprocessed/case_0085,case_0085
+../../../data/spine/preprocessed/case_1205,case_1205
+../../../data/spine/preprocessed/case_0851,case_0851
+../../../data/spine/preprocessed/case_1166,case_1166
+../../../data/spine/preprocessed/case_0594,case_0594
+../../../data/spine/preprocessed/case_0748,case_0748
+../../../data/spine/preprocessed/case_0723,case_0723
+../../../data/spine/preprocessed/case_0820,case_0820
+../../../data/spine/preprocessed/case_0956,case_0956
+../../../data/spine/preprocessed/case_0965,case_0965
+../../../data/spine/preprocessed/case_1151,case_1151
+../../../data/spine/preprocessed/case_1113,case_1113
+../../../data/spine/preprocessed/case_0953,case_0953
+../../../data/spine/preprocessed/case_0679,case_0679
+../../../data/spine/preprocessed/case_0278,case_0278
+../../../data/spine/preprocessed/case_1172,case_1172
+../../../data/spine/preprocessed/case_1159,case_1159
+../../../data/spine/preprocessed/case_0489,case_0489
+../../../data/spine/preprocessed/case_0291,case_0291
+../../../data/spine/preprocessed/case_0595,case_0595
+../../../data/spine/preprocessed/case_1160,case_1160
+../../../data/spine/preprocessed/case_0394,case_0394
+../../../data/spine/preprocessed/case_0634,case_0634
+../../../data/spine/preprocessed/case_0963,case_0963
+../../../data/spine/preprocessed/case_0018,case_0018
+../../../data/spine/preprocessed/case_0562,case_0562
+../../../data/spine/preprocessed/case_0861,case_0861
+../../../data/spine/preprocessed/case_0635,case_0635
+../../../data/spine/preprocessed/case_0343,case_0343
+../../../data/spine/preprocessed/case_0191,case_0191
+../../../data/spine/preprocessed/case_0969,case_0969
+../../../data/spine/preprocessed/case_0326,case_0326
+../../../data/spine/preprocessed/case_0689,case_0689
+../../../data/spine/preprocessed/case_1162,case_1162
+../../../data/spine/preprocessed/case_0398,case_0398
+../../../data/spine/preprocessed/case_0834,case_0834
+../../../data/spine/preprocessed/case_0957,case_0957
+../../../data/spine/preprocessed/case_0559,case_0559
+../../../data/spine/preprocessed/case_0867,case_0867
+../../../data/spine/preprocessed/case_0412,case_0412
+../../../data/spine/preprocessed/case_0924,case_0924
+../../../data/spine/preprocessed/case_0510,case_0510
+../../../data/spine/preprocessed/case_0101,case_0101
+../../../data/spine/preprocessed/case_0118,case_0118
+../../../data/spine/preprocessed/case_0675,case_0675
+../../../data/spine/preprocessed/case_0733,case_0733
+../../../data/spine/preprocessed/case_0896,case_0896
+../../../data/spine/preprocessed/case_1069,case_1069
+../../../data/spine/preprocessed/case_0222,case_0222
+../../../data/spine/preprocessed/case_0379,case_0379
+../../../data/spine/preprocessed/case_0567,case_0567
+../../../data/spine/preprocessed/case_0891,case_0891
+../../../data/spine/preprocessed/case_0738,case_0738
+../../../data/spine/preprocessed/case_0013,case_0013
+../../../data/spine/preprocessed/case_0080,case_0080
+../../../data/spine/preprocessed/case_0706,case_0706
+../../../data/spine/preprocessed/case_0700,case_0700
+../../../data/spine/preprocessed/case_0757,case_0757
+../../../data/spine/preprocessed/case_0400,case_0400
+../../../data/spine/preprocessed/case_0393,case_0393
+../../../data/spine/preprocessed/case_0004,case_0004
+../../../data/spine/preprocessed/case_0620,case_0620
+../../../data/spine/preprocessed/case_1002,case_1002
+../../../data/spine/preprocessed/case_0208,case_0208
+../../../data/spine/preprocessed/case_1030,case_1030
+../../../data/spine/preprocessed/case_0276,case_0276
+../../../data/spine/preprocessed/case_0147,case_0147
+../../../data/spine/preprocessed/case_0308,case_0308
+../../../data/spine/preprocessed/case_0925,case_0925
+../../../data/spine/preprocessed/case_0265,case_0265
+../../../data/spine/preprocessed/case_0958,case_0958
+../../../data/spine/preprocessed/case_0665,case_0665
+../../../data/spine/preprocessed/case_0458,case_0458
+../../../data/spine/preprocessed/case_0658,case_0658
+../../../data/spine/preprocessed/case_0683,case_0683
+../../../data/spine/preprocessed/case_0206,case_0206
+../../../data/spine/preprocessed/case_0434,case_0434
+../../../data/spine/preprocessed/case_1155,case_1155
+../../../data/spine/preprocessed/case_0840,case_0840
+../../../data/spine/preprocessed/case_0372,case_0372
+../../../data/spine/preprocessed/case_0751,case_0751
+../../../data/spine/preprocessed/case_0876,case_0876
+../../../data/spine/preprocessed/case_0565,case_0565
+../../../data/spine/preprocessed/case_0764,case_0764
+../../../data/spine/preprocessed/case_0546,case_0546
+../../../data/spine/preprocessed/case_0768,case_0768
+../../../data/spine/preprocessed/case_0871,case_0871
+../../../data/spine/preprocessed/case_0145,case_0145
+../../../data/spine/preprocessed/case_0715,case_0715
+../../../data/spine/preprocessed/case_0521,case_0521
+../../../data/spine/preprocessed/case_0042,case_0042
+../../../data/spine/preprocessed/case_0774,case_0774
+../../../data/spine/preprocessed/case_0498,case_0498
+../../../data/spine/preprocessed/case_0392,case_0392
+../../../data/spine/preprocessed/case_1207,case_1207
+../../../data/spine/preprocessed/case_0858,case_0858
+../../../data/spine/preprocessed/case_1048,case_1048
+../../../data/spine/preprocessed/case_0547,case_0547
+../../../data/spine/preprocessed/case_0572,case_0572
+../../../data/spine/preprocessed/case_0950,case_0950
+../../../data/spine/preprocessed/case_0685,case_0685
+../../../data/spine/preprocessed/case_0455,case_0455
+../../../data/spine/preprocessed/case_1215,case_1215
+../../../data/spine/preprocessed/case_0795,case_0795
+../../../data/spine/preprocessed/case_0718,case_0718
+../../../data/spine/preprocessed/case_0886,case_0886
+../../../data/spine/preprocessed/case_0615,case_0615
+../../../data/spine/preprocessed/case_0705,case_0705
+../../../data/spine/preprocessed/case_0710,case_0710
+../../../data/spine/preprocessed/case_0078,case_0078
+../../../data/spine/preprocessed/case_0050,case_0050
+../../../data/spine/preprocessed/case_0348,case_0348
+../../../data/spine/preprocessed/case_0655,case_0655
+../../../data/spine/preprocessed/case_0644,case_0644
+../../../data/spine/preprocessed/case_0599,case_0599
+../../../data/spine/preprocessed/case_0232,case_0232
+../../../data/spine/preprocessed/case_0863,case_0863
+../../../data/spine/preprocessed/case_0584,case_0584
+../../../data/spine/preprocessed/case_0224,case_0224
+../../../data/spine/preprocessed/case_0469,case_0469
+../../../data/spine/preprocessed/case_1036,case_1036
+../../../data/spine/preprocessed/case_1027,case_1027
+../../../data/spine/preprocessed/case_0351,case_0351
+../../../data/spine/preprocessed/case_0281,case_0281
+../../../data/spine/preprocessed/case_0801,case_0801
+../../../data/spine/preprocessed/case_0086,case_0086
+../../../data/spine/preprocessed/case_0402,case_0402
+../../../data/spine/preprocessed/case_1114,case_1114
+../../../data/spine/preprocessed/case_0581,case_0581
+../../../data/spine/preprocessed/case_0548,case_0548
+../../../data/spine/preprocessed/case_1187,case_1187
+../../../data/spine/preprocessed/case_0775,case_0775
+../../../data/spine/preprocessed/case_0797,case_0797
+../../../data/spine/preprocessed/case_0936,case_0936
+../../../data/spine/preprocessed/case_0803,case_0803
+../../../data/spine/preprocessed/case_0719,case_0719
+../../../data/spine/preprocessed/case_1095,case_1095
+../../../data/spine/preprocessed/case_0033,case_0033
+../../../data/spine/preprocessed/case_0288,case_0288
+../../../data/spine/preprocessed/case_1173,case_1173
+../../../data/spine/preprocessed/case_0045,case_0045
+../../../data/spine/preprocessed/case_0376,case_0376
+../../../data/spine/preprocessed/case_0918,case_0918
+../../../data/spine/preprocessed/case_0089,case_0089
+../../../data/spine/preprocessed/case_0919,case_0919
+../../../data/spine/preprocessed/case_0817,case_0817
+../../../data/spine/preprocessed/case_0839,case_0839
+../../../data/spine/preprocessed/case_0135,case_0135
+../../../data/spine/preprocessed/case_0048,case_0048
+../../../data/spine/preprocessed/case_0568,case_0568
+../../../data/spine/preprocessed/case_0662,case_0662
+../../../data/spine/preprocessed/case_1107,case_1107
+../../../data/spine/preprocessed/case_0734,case_0734
+../../../data/spine/preprocessed/case_0554,case_0554
+../../../data/spine/preprocessed/case_0353,case_0353
+../../../data/spine/preprocessed/case_0583,case_0583
+../../../data/spine/preprocessed/case_0041,case_0041
+../../../data/spine/preprocessed/case_0904,case_0904
+../../../data/spine/preprocessed/case_0131,case_0131
+../../../data/spine/preprocessed/case_0792,case_0792
+../../../data/spine/preprocessed/case_0062,case_0062
+../../../data/spine/preprocessed/case_0244,case_0244
+../../../data/spine/preprocessed/case_0550,case_0550
+../../../data/spine/preprocessed/case_0691,case_0691
+../../../data/spine/preprocessed/case_0743,case_0743
+../../../data/spine/preprocessed/case_0890,case_0890
+../../../data/spine/preprocessed/case_0531,case_0531
+../../../data/spine/preprocessed/case_0749,case_0749
+../../../data/spine/preprocessed/case_0537,case_0537
+../../../data/spine/preprocessed/case_0641,case_0641
+../../../data/spine/preprocessed/case_0622,case_0622
+../../../data/spine/preprocessed/case_0600,case_0600
+../../../data/spine/preprocessed/case_0441,case_0441
+../../../data/spine/preprocessed/case_1141,case_1141
+../../../data/spine/preprocessed/case_0056,case_0056
+../../../data/spine/preprocessed/case_1004,case_1004
+../../../data/spine/preprocessed/case_0667,case_0667
+../../../data/spine/preprocessed/case_1046,case_1046
+../../../data/spine/preprocessed/case_0872,case_0872
+../../../data/spine/preprocessed/case_0490,case_0490
+../../../data/spine/preprocessed/case_1138,case_1138
+../../../data/spine/preprocessed/case_0171,case_0171
+../../../data/spine/preprocessed/case_0503,case_0503
+../../../data/spine/preprocessed/case_0251,case_0251
+../../../data/spine/preprocessed/case_0264,case_0264
+../../../data/spine/preprocessed/case_0389,case_0389
+../../../data/spine/preprocessed/case_1051,case_1051
+../../../data/spine/preprocessed/case_0478,case_0478
+../../../data/spine/preprocessed/case_0344,case_0344
+../../../data/spine/preprocessed/case_1020,case_1020
+../../../data/spine/preprocessed/case_0424,case_0424
+../../../data/spine/preprocessed/case_0001,case_0001
+../../../data/spine/preprocessed/case_0153,case_0153
+../../../data/spine/preprocessed/case_0623,case_0623
+../../../data/spine/preprocessed/case_1108,case_1108
+../../../data/spine/preprocessed/case_0461,case_0461
+../../../data/spine/preprocessed/case_0473,case_0473
+../../../data/spine/preprocessed/case_0610,case_0610
+../../../data/spine/preprocessed/case_0973,case_0973
+../../../data/spine/preprocessed/case_0028,case_0028
+../../../data/spine/preprocessed/case_0961,case_0961
+../../../data/spine/preprocessed/case_0252,case_0252
+../../../data/spine/preprocessed/case_0892,case_0892
+../../../data/spine/preprocessed/case_1021,case_1021
+../../../data/spine/preprocessed/case_1193,case_1193
+../../../data/spine/preprocessed/case_0653,case_0653
+../../../data/spine/preprocessed/case_0250,case_0250
+../../../data/spine/preprocessed/case_0242,case_0242
+../../../data/spine/preprocessed/case_0387,case_0387
+../../../data/spine/preprocessed/case_1016,case_1016
+../../../data/spine/preprocessed/case_0762,case_0762
+../../../data/spine/preprocessed/case_0234,case_0234
+../../../data/spine/preprocessed/case_1204,case_1204
+../../../data/spine/preprocessed/case_0061,case_0061
+../../../data/spine/preprocessed/case_0761,case_0761
+../../../data/spine/preprocessed/case_0508,case_0508
+../../../data/spine/preprocessed/case_1209,case_1209
+../../../data/spine/preprocessed/case_0142,case_0142
+../../../data/spine/preprocessed/case_0843,case_0843
+../../../data/spine/preprocessed/case_0485,case_0485
+../../../data/spine/preprocessed/case_0582,case_0582
+../../../data/spine/preprocessed/case_0879,case_0879
+../../../data/spine/preprocessed/case_0390,case_0390
+../../../data/spine/preprocessed/case_0574,case_0574
+../../../data/spine/preprocessed/case_0437,case_0437
+../../../data/spine/preprocessed/case_1213,case_1213
+../../../data/spine/preprocessed/case_1180,case_1180
+../../../data/spine/preprocessed/case_0585,case_0585
+../../../data/spine/preprocessed/case_0586,case_0586
+../../../data/spine/preprocessed/case_0429,case_0429
+../../../data/spine/preprocessed/case_0329,case_0329
+../../../data/spine/preprocessed/case_0659,case_0659
+../../../data/spine/preprocessed/case_0195,case_0195
+../../../data/spine/preprocessed/case_0448,case_0448
+../../../data/spine/preprocessed/case_0720,case_0720
+../../../data/spine/preprocessed/case_0253,case_0253
+../../../data/spine/preprocessed/case_0464,case_0464
+../../../data/spine/preprocessed/case_0459,case_0459
+../../../data/spine/preprocessed/case_1171,case_1171
+../../../data/spine/preprocessed/case_0418,case_0418
+../../../data/spine/preprocessed/case_0649,case_0649
+../../../data/spine/preprocessed/case_0666,case_0666
+../../../data/spine/preprocessed/case_0202,case_0202
+../../../data/spine/preprocessed/case_0026,case_0026
+../../../data/spine/preprocessed/case_0777,case_0777
+../../../data/spine/preprocessed/case_0947,case_0947
+../../../data/spine/preprocessed/case_0804,case_0804
+../../../data/spine/preprocessed/case_0529,case_0529
+../../../data/spine/preprocessed/case_0213,case_0213
+../../../data/spine/preprocessed/case_1148,case_1148
+../../../data/spine/preprocessed/case_0937,case_0937
+../../../data/spine/preprocessed/case_0553,case_0553
+../../../data/spine/preprocessed/case_0915,case_0915
+../../../data/spine/preprocessed/case_1143,case_1143
+../../../data/spine/preprocessed/case_0884,case_0884
+../../../data/spine/preprocessed/case_0712,case_0712
+../../../data/spine/preprocessed/case_0818,case_0818
+../../../data/spine/preprocessed/case_0782,case_0782
+../../../data/spine/preprocessed/case_1029,case_1029
+../../../data/spine/preprocessed/case_0701,case_0701
+../../../data/spine/preprocessed/case_0903,case_0903
+../../../data/spine/preprocessed/case_0534,case_0534
+../../../data/spine/preprocessed/case_0704,case_0704
+../../../data/spine/preprocessed/case_0209,case_0209
+../../../data/spine/preprocessed/case_1014,case_1014
+../../../data/spine/preprocessed/case_0425,case_0425
+../../../data/spine/preprocessed/case_0887,case_0887
+../../../data/spine/preprocessed/case_0315,case_0315
+../../../data/spine/preprocessed/case_0121,case_0121
+../../../data/spine/preprocessed/case_0502,case_0502
+../../../data/spine/preprocessed/case_0279,case_0279
+../../../data/spine/preprocessed/case_0596,case_0596
+../../../data/spine/preprocessed/case_1025,case_1025
+../../../data/spine/preprocessed/case_1085,case_1085
+../../../data/spine/preprocessed/case_0492,case_0492
+../../../data/spine/preprocessed/case_0991,case_0991
+../../../data/spine/preprocessed/case_1056,case_1056
+../../../data/spine/preprocessed/case_1050,case_1050
+../../../data/spine/preprocessed/case_0669,case_0669
+../../../data/spine/preprocessed/case_0371,case_0371
+../../../data/spine/preprocessed/case_0970,case_0970
+../../../data/spine/preprocessed/case_1164,case_1164
+../../../data/spine/preprocessed/case_0500,case_0500
+../../../data/spine/preprocessed/case_0616,case_0616
+../../../data/spine/preprocessed/case_0765,case_0765
+../../../data/spine/preprocessed/case_0140,case_0140
+../../../data/spine/preprocessed/case_1214,case_1214
+../../../data/spine/preprocessed/case_0362,case_0362
+../../../data/spine/preprocessed/case_1058,case_1058
+../../../data/spine/preprocessed/case_0681,case_0681
+../../../data/spine/preprocessed/case_0312,case_0312
+../../../data/spine/preprocessed/case_1031,case_1031
+../../../data/spine/preprocessed/case_0263,case_0263
+../../../data/spine/preprocessed/case_0073,case_0073
+../../../data/spine/preprocessed/case_0071,case_0071
+../../../data/spine/preprocessed/case_0520,case_0520
+../../../data/spine/preprocessed/case_0913,case_0913
+../../../data/spine/preprocessed/case_0016,case_0016
+../../../data/spine/preprocessed/case_0906,case_0906
+../../../data/spine/preprocessed/case_1220,case_1220
+../../../data/spine/preprocessed/case_1096,case_1096
+../../../data/spine/preprocessed/case_1191,case_1191
+../../../data/spine/preprocessed/case_0656,case_0656
+../../../data/spine/preprocessed/case_0373,case_0373
+../../../data/spine/preprocessed/case_1055,case_1055
+../../../data/spine/preprocessed/case_1005,case_1005
+../../../data/spine/preprocessed/case_1028,case_1028
+../../../data/spine/preprocessed/case_0807,case_0807
+../../../data/spine/preprocessed/case_0210,case_0210
+../../../data/spine/preprocessed/case_0975,case_0975
+../../../data/spine/preprocessed/case_1054,case_1054
+../../../data/spine/preprocessed/case_1038,case_1038
+../../../data/spine/preprocessed/case_0333,case_0333
+../../../data/spine/preprocessed/case_0778,case_0778
+../../../data/spine/preprocessed/case_1019,case_1019
+../../../data/spine/preprocessed/case_0923,case_0923
+../../../data/spine/preprocessed/case_0984,case_0984
+../../../data/spine/preprocessed/case_0993,case_0993
+../../../data/spine/preprocessed/case_0382,case_0382
+../../../data/spine/preprocessed/case_0396,case_0396
+../../../data/spine/preprocessed/case_0079,case_0079
+../../../data/spine/preprocessed/case_0136,case_0136
+../../../data/spine/preprocessed/case_0535,case_0535
+../../../data/spine/preprocessed/case_0106,case_0106
+../../../data/spine/preprocessed/case_0756,case_0756
+../../../data/spine/preprocessed/case_0456,case_0456
+../../../data/spine/preprocessed/case_1110,case_1110
+../../../data/spine/preprocessed/case_1042,case_1042
+../../../data/spine/preprocessed/case_0878,case_0878
+../../../data/spine/preprocessed/case_0769,case_0769
+../../../data/spine/preprocessed/case_0730,case_0730
+../../../data/spine/preprocessed/case_0642,case_0642
+../../../data/spine/preprocessed/case_0468,case_0468
+../../../data/spine/preprocessed/case_1199,case_1199
+../../../data/spine/preprocessed/case_0370,case_0370
+../../../data/spine/preprocessed/case_0661,case_0661
+../../../data/spine/preprocessed/case_0697,case_0697
+../../../data/spine/preprocessed/case_0470,case_0470
+../../../data/spine/preprocessed/case_0137,case_0137
+../../../data/spine/preprocessed/case_1116,case_1116
+../../../data/spine/preprocessed/case_0165,case_0165
+../../../data/spine/preprocessed/case_0859,case_0859
+../../../data/spine/preprocessed/case_0436,case_0436
+../../../data/spine/preprocessed/case_1189,case_1189
+../../../data/spine/preprocessed/case_1203,case_1203
+../../../data/spine/preprocessed/case_0335,case_0335
+../../../data/spine/preprocessed/case_0545,case_0545
+../../../data/spine/preprocessed/case_0855,case_0855
+../../../data/spine/preprocessed/case_0108,case_0108
+../../../data/spine/preprocessed/case_0870,case_0870
+../../../data/spine/preprocessed/case_0039,case_0039
+../../../data/spine/preprocessed/case_1152,case_1152
+../../../data/spine/preprocessed/case_0885,case_0885
+../../../data/spine/preprocessed/case_1098,case_1098
+../../../data/spine/preprocessed/case_1032,case_1032
+../../../data/spine/preprocessed/case_0133,case_0133
+../../../data/spine/preprocessed/case_0255,case_0255
+../../../data/spine/preprocessed/case_0243,case_0243
+../../../data/spine/preprocessed/case_0813,case_0813
+../../../data/spine/preprocessed/case_0304,case_0304
+../../../data/spine/preprocessed/case_0911,case_0911
+../../../data/spine/preprocessed/case_1064,case_1064
+../../../data/spine/preprocessed/case_0408,case_0408
+../../../data/spine/preprocessed/case_0971,case_0971
+../../../data/spine/preprocessed/case_0736,case_0736
+../../../data/spine/preprocessed/case_0150,case_0150
+../../../data/spine/preprocessed/case_1040,case_1040
+../../../data/spine/preprocessed/case_0672,case_0672
+../../../data/spine/preprocessed/case_0103,case_0103
+../../../data/spine/preprocessed/case_0084,case_0084
+../../../data/spine/preprocessed/case_0194,case_0194
+../../../data/spine/preprocessed/case_0406,case_0406
+../../../data/spine/preprocessed/case_0356,case_0356
+../../../data/spine/preprocessed/case_1216,case_1216
+../../../data/spine/preprocessed/case_0721,case_0721
+../../../data/spine/preprocessed/case_0668,case_0668
+../../../data/spine/preprocessed/case_0480,case_0480
+../../../data/spine/preprocessed/case_0413,case_0413
+../../../data/spine/preprocessed/case_0126,case_0126
+../../../data/spine/preprocessed/case_0962,case_0962
+../../../data/spine/preprocessed/case_0640,case_0640
+../../../data/spine/preprocessed/case_0630,case_0630
+../../../data/spine/preprocessed/case_0676,case_0676
+../../../data/spine/preprocessed/case_0753,case_0753
+../../../data/spine/preprocessed/case_0054,case_0054
+../../../data/spine/preprocessed/case_0612,case_0612
+../../../data/spine/preprocessed/case_0540,case_0540
+../../../data/spine/preprocessed/case_0482,case_0482
+../../../data/spine/preprocessed/case_0703,case_0703
+../../../data/spine/preprocessed/case_0822,case_0822
+../../../data/spine/preprocessed/case_0900,case_0900
+../../../data/spine/preprocessed/case_0092,case_0092
+../../../data/spine/preprocessed/case_0934,case_0934
+../../../data/spine/preprocessed/case_1026,case_1026
+../../../data/spine/preprocessed/case_0832,case_0832
+../../../data/spine/preprocessed/case_0156,case_0156
+../../../data/spine/preprocessed/case_1024,case_1024
+../../../data/spine/preprocessed/case_0197,case_0197
+../../../data/spine/preprocessed/case_1065,case_1065
+../../../data/spine/preprocessed/case_0337,case_0337
+../../../data/spine/preprocessed/case_1150,case_1150
+../../../data/spine/preprocessed/case_0012,case_0012
+../../../data/spine/preprocessed/case_0853,case_0853
+../../../data/spine/preprocessed/case_0438,case_0438
+../../../data/spine/preprocessed/case_0880,case_0880
+../../../data/spine/preprocessed/case_0342,case_0342
+../../../data/spine/preprocessed/case_0592,case_0592
+../../../data/spine/preprocessed/case_0771,case_0771
+../../../data/spine/preprocessed/case_0198,case_0198
+../../../data/spine/preprocessed/case_0912,case_0912
+../../../data/spine/preprocessed/case_0309,case_0309
+../../../data/spine/preprocessed/case_0611,case_0611
+../../../data/spine/preprocessed/case_0248,case_0248
+../../../data/spine/preprocessed/case_0724,case_0724
+../../../data/spine/preprocessed/case_0472,case_0472
+../../../data/spine/preprocessed/case_1134,case_1134
+../../../data/spine/preprocessed/case_0652,case_0652
+../../../data/spine/preprocessed/case_0693,case_0693
+../../../data/spine/preprocessed/case_0440,case_0440
+../../../data/spine/preprocessed/case_0637,case_0637
+../../../data/spine/preprocessed/case_0591,case_0591
+../../../data/spine/preprocessed/case_1053,case_1053
+../../../data/spine/preprocessed/case_0951,case_0951
+../../../data/spine/preprocessed/case_0132,case_0132
+../../../data/spine/preprocessed/case_0791,case_0791
+../../../data/spine/preprocessed/case_1129,case_1129
+../../../data/spine/preprocessed/case_0952,case_0952
+../../../data/spine/preprocessed/case_0717,case_0717
+../../../data/spine/preprocessed/case_0377,case_0377
+../../../data/spine/preprocessed/case_0716,case_0716
+../../../data/spine/preprocessed/case_0538,case_0538
+../../../data/spine/preprocessed/case_0345,case_0345
+../../../data/spine/preprocessed/case_1010,case_1010
+../../../data/spine/preprocessed/case_0044,case_0044
+../../../data/spine/preprocessed/case_0022,case_0022
+../../../data/spine/preprocessed/case_0627,case_0627
+../../../data/spine/preprocessed/case_0226,case_0226
+../../../data/spine/preprocessed/case_0105,case_0105
+../../../data/spine/preprocessed/case_0301,case_0301
+../../../data/spine/preprocessed/case_0837,case_0837
+../../../data/spine/preprocessed/case_0223,case_0223
+../../../data/spine/preprocessed/case_0072,case_0072
+../../../data/spine/preprocessed/case_0664,case_0664
+../../../data/spine/preprocessed/case_0877,case_0877
+../../../data/spine/preprocessed/case_0064,case_0064
+../../../data/spine/preprocessed/case_0365,case_0365
+../../../data/spine/preprocessed/case_0997,case_0997
+../../../data/spine/preprocessed/case_0579,case_0579
+../../../data/spine/preprocessed/case_0233,case_0233
+../../../data/spine/preprocessed/case_0883,case_0883
+../../../data/spine/preprocessed/case_1176,case_1176
+../../../data/spine/preprocessed/case_0966,case_0966
+../../../data/spine/preprocessed/case_0157,case_0157
+../../../data/spine/preprocessed/case_0955,case_0955
+../../../data/spine/preprocessed/case_0849,case_0849
+../../../data/spine/preprocessed/case_1119,case_1119
+../../../data/spine/preprocessed/case_1118,case_1118
+../../../data/spine/preprocessed/case_1223,case_1223
+../../../data/spine/preprocessed/case_0995,case_0995
+../../../data/spine/preprocessed/case_0386,case_0386
+../../../data/spine/preprocessed/case_0687,case_0687
+../../../data/spine/preprocessed/case_0930,case_0930
+../../../data/spine/preprocessed/case_0175,case_0175
+../../../data/spine/preprocessed/case_1142,case_1142
+../../../data/spine/preprocessed/case_1188,case_1188
+../../../data/spine/preprocessed/case_0357,case_0357
+../../../data/spine/preprocessed/case_0660,case_0660
+../../../data/spine/preprocessed/case_1043,case_1043
+../../../data/spine/preprocessed/case_1149,case_1149
+../../../data/spine/preprocessed/case_0968,case_0968
+../../../data/spine/preprocessed/case_0298,case_0298
+../../../data/spine/preprocessed/case_1101,case_1101
+../../../data/spine/preprocessed/case_0702,case_0702
+../../../data/spine/preprocessed/case_0354,case_0354
+../../../data/spine/preprocessed/case_1144,case_1144
+../../../data/spine/preprocessed/case_0808,case_0808
+../../../data/spine/preprocessed/case_1083,case_1083
+../../../data/spine/preprocessed/case_0945,case_0945
+../../../data/spine/preprocessed/case_1103,case_1103
+../../../data/spine/preprocessed/case_1222,case_1222
+../../../data/spine/preprocessed/case_0152,case_0152
+../../../data/spine/preprocessed/case_0007,case_0007
+../../../data/spine/preprocessed/case_0513,case_0513
+../../../data/spine/preprocessed/case_0816,case_0816
+../../../data/spine/preprocessed/case_1078,case_1078
+../../../data/spine/preprocessed/case_0539,case_0539
+../../../data/spine/preprocessed/case_0457,case_0457
+../../../data/spine/preprocessed/case_0328,case_0328
+../../../data/spine/preprocessed/case_1006,case_1006
+../../../data/spine/preprocessed/case_0008,case_0008
+../../../data/spine/preprocessed/case_0176,case_0176
+../../../data/spine/preprocessed/case_0286,case_0286
+../../../data/spine/preprocessed/case_0178,case_0178
+../../../data/spine/preprocessed/case_0122,case_0122
+../../../data/spine/preprocessed/case_1202,case_1202
+../../../data/spine/preprocessed/case_1124,case_1124
+../../../data/spine/preprocessed/case_0355,case_0355
+../../../data/spine/preprocessed/case_0416,case_0416
+../../../data/spine/preprocessed/case_0593,case_0593
+../../../data/spine/preprocessed/case_1071,case_1071
+../../../data/spine/preprocessed/case_0331,case_0331
+../../../data/spine/preprocessed/case_0420,case_0420
+../../../data/spine/preprocessed/case_0663,case_0663
+../../../data/spine/preprocessed/case_0560,case_0560
+../../../data/spine/preprocessed/case_0580,case_0580
+../../../data/spine/preprocessed/case_0928,case_0928
+../../../data/spine/preprocessed/case_0020,case_0020
+../../../data/spine/preprocessed/case_0688,case_0688
+../../../data/spine/preprocessed/case_0314,case_0314
+../../../data/spine/preprocessed/case_0230,case_0230
+../../../data/spine/preprocessed/case_0899,case_0899
+../../../data/spine/preprocessed/case_0395,case_0395
+../../../data/spine/preprocessed/case_0902,case_0902
+../../../data/spine/preprocessed/case_0905,case_0905
+../../../data/spine/preprocessed/case_0032,case_0032
+../../../data/spine/preprocessed/case_0692,case_0692
+../../../data/spine/preprocessed/case_0388,case_0388
+../../../data/spine/preprocessed/case_1183,case_1183
+../../../data/spine/preprocessed/case_0021,case_0021
+../../../data/spine/preprocessed/case_0750,case_0750
+../../../data/spine/preprocessed/case_0549,case_0549
+../../../data/spine/preprocessed/case_0828,case_0828
+../../../data/spine/preprocessed/case_0366,case_0366
+../../../data/spine/preprocessed/case_0144,case_0144
+../../../data/spine/preprocessed/case_1007,case_1007
+../../../data/spine/preprocessed/case_0484,case_0484
+../../../data/spine/preprocessed/case_0636,case_0636
+../../../data/spine/preprocessed/case_0824,case_0824
+../../../data/spine/preprocessed/case_0322,case_0322
+../../../data/spine/preprocessed/case_1061,case_1061
+../../../data/spine/preprocessed/case_0277,case_0277
+../../../data/spine/preprocessed/case_0515,case_0515
+../../../data/spine/preprocessed/case_1105,case_1105
+../../../data/spine/preprocessed/case_0187,case_0187
+../../../data/spine/preprocessed/case_0618,case_0618
+../../../data/spine/preprocessed/case_0682,case_0682
+../../../data/spine/preprocessed/case_0360,case_0360
+../../../data/spine/preprocessed/case_0846,case_0846
+../../../data/spine/preprocessed/case_0111,case_0111
+../../../data/spine/preprocessed/case_0114,case_0114
+../../../data/spine/preprocessed/case_0960,case_0960
+../../../data/spine/preprocessed/case_0976,case_0976
+../../../data/spine/preprocessed/case_0404,case_0404
+../../../data/spine/preprocessed/case_1104,case_1104
+../../../data/spine/preprocessed/case_1163,case_1163
+../../../data/spine/preprocessed/case_0731,case_0731
+../../../data/spine/preprocessed/case_0729,case_0729
+../../../data/spine/preprocessed/case_0939,case_0939
+../../../data/spine/preprocessed/case_0409,case_0409
+../../../data/spine/preprocessed/case_1120,case_1120
+../../../data/spine/preprocessed/case_0164,case_0164
+../../../data/spine/preprocessed/case_1140,case_1140
+../../../data/spine/preprocessed/case_0708,case_0708
+../../../data/spine/preprocessed/case_1206,case_1206
+../../../data/spine/preprocessed/case_1121,case_1121
+../../../data/spine/preprocessed/case_0895,case_0895
+../../../data/spine/preprocessed/case_0780,case_0780
+../../../data/spine/preprocessed/case_1099,case_1099
+../../../data/spine/preprocessed/case_0220,case_0220
+../../../data/spine/preprocessed/case_0514,case_0514
+../../../data/spine/preprocessed/case_0836,case_0836
+../../../data/spine/preprocessed/case_0714,case_0714
+../../../data/spine/preprocessed/case_0451,case_0451
+../../../data/spine/preprocessed/case_1037,case_1037
+../../../data/spine/preprocessed/case_0146,case_0146
+../../../data/spine/preprocessed/case_0910,case_0910
+../../../data/spine/preprocessed/case_0590,case_0590
+../../../data/spine/preprocessed/case_0076,case_0076
+../../../data/spine/preprocessed/case_0759,case_0759
+../../../data/spine/preprocessed/case_0181,case_0181
+../../../data/spine/preprocessed/case_0422,case_0422
+../../../data/spine/preprocessed/case_0760,case_0760
+../../../data/spine/preprocessed/case_0964,case_0964
+../../../data/spine/preprocessed/case_0320,case_0320
+../../../data/spine/preprocessed/case_1084,case_1084
+../../../data/spine/preprocessed/case_0967,case_0967
+../../../data/spine/preprocessed/case_0359,case_0359
+../../../data/spine/preprocessed/case_0709,case_0709
+../../../data/spine/preprocessed/case_1111,case_1111
+../../../data/spine/preprocessed/case_0776,case_0776
+../../../data/spine/preprocessed/case_0445,case_0445
+../../../data/spine/preprocessed/case_0015,case_0015
+../../../data/spine/preprocessed/case_0430,case_0430
+../../../data/spine/preprocessed/case_0512,case_0512
+../../../data/spine/preprocessed/case_0433,case_0433
+../../../data/spine/preprocessed/case_0311,case_0311
+../../../data/spine/preprocessed/case_0083,case_0083
+../../../data/spine/preprocessed/case_0629,case_0629
+../../../data/spine/preprocessed/case_0154,case_0154
+../../../data/spine/preprocessed/case_1082,case_1082
+../../../data/spine/preprocessed/case_0536,case_0536
+../../../data/spine/preprocessed/case_0519,case_0519
+../../../data/spine/preprocessed/case_0378,case_0378
+../../../data/spine/preprocessed/case_0385,case_0385
+../../../data/spine/preprocessed/case_1068,case_1068
+../../../data/spine/preprocessed/case_0740,case_0740
+../../../data/spine/preprocessed/case_0297,case_0297
+../../../data/spine/preprocessed/case_0443,case_0443
+../../../data/spine/preprocessed/case_0059,case_0059
+../../../data/spine/preprocessed/case_1015,case_1015
+../../../data/spine/preprocessed/case_0128,case_0128
+../../../data/spine/preprocessed/case_1060,case_1060
+../../../data/spine/preprocessed/case_0551,case_0551
+../../../data/spine/preprocessed/case_0319,case_0319
+../../../data/spine/preprocessed/case_0361,case_0361
+../../../data/spine/preprocessed/case_0944,case_0944
+../../../data/spine/preprocessed/case_0671,case_0671
+../../../data/spine/preprocessed/case_0053,case_0053
+../../../data/spine/preprocessed/case_0292,case_0292
+../../../data/spine/preprocessed/case_1192,case_1192
+../../../data/spine/preprocessed/case_0047,case_0047
+../../../data/spine/preprocessed/case_0031,case_0031
+../../../data/spine/preprocessed/case_0752,case_0752
+../../../data/spine/preprocessed/case_0475,case_0475
+../../../data/spine/preprocessed/case_0369,case_0369
+../../../data/spine/preprocessed/case_1045,case_1045
+../../../data/spine/preprocessed/case_1023,case_1023
+../../../data/spine/preprocessed/case_0614,case_0614
+../../../data/spine/preprocessed/case_0124,case_0124
+../../../data/spine/preprocessed/case_1135,case_1135
+../../../data/spine/preprocessed/case_0423,case_0423
+../../../data/spine/preprocessed/case_0601,case_0601
+../../../data/spine/preprocessed/case_0052,case_0052
+../../../data/spine/preprocessed/case_1194,case_1194
+../../../data/spine/preprocessed/case_0852,case_0852
+../../../data/spine/preprocessed/case_0977,case_0977
+../../../data/spine/preprocessed/case_0787,case_0787
+../../../data/spine/preprocessed/case_1062,case_1062
+../../../data/spine/preprocessed/case_0034,case_0034
+../../../data/spine/preprocessed/case_0980,case_0980
+../../../data/spine/preprocessed/case_1161,case_1161
+../../../data/spine/preprocessed/case_0557,case_0557
+../../../data/spine/preprocessed/case_0493,case_0493
+../../../data/spine/preprocessed/case_0694,case_0694
+../../../data/spine/preprocessed/case_1041,case_1041
+../../../data/spine/preprocessed/case_1093,case_1093
+../../../data/spine/preprocessed/case_1186,case_1186
+../../../data/spine/preprocessed/case_1210,case_1210
+../../../data/spine/preprocessed/case_0645,case_0645
+../../../data/spine/preprocessed/case_0102,case_0102
+../../../data/spine/preprocessed/case_0632,case_0632
+../../../data/spine/preprocessed/case_0453,case_0453
+../../../data/spine/preprocessed/case_1044,case_1044
+../../../data/spine/preprocessed/case_0587,case_0587
+../../../data/spine/preprocessed/case_0959,case_0959
+../../../data/spine/preprocessed/case_0364,case_0364
+../../../data/spine/preprocessed/case_0173,case_0173
+../../../data/spine/preprocessed/case_0857,case_0857
+../../../data/spine/preprocessed/case_0838,case_0838
+../../../data/spine/preprocessed/case_0036,case_0036
+../../../data/spine/preprocessed/case_0974,case_0974
+../../../data/spine/preprocessed/case_0038,case_0038
+../../../data/spine/preprocessed/case_0556,case_0556
+../../../data/spine/preprocessed/case_0842,case_0842
+../../../data/spine/preprocessed/case_0307,case_0307
+../../../data/spine/preprocessed/case_0628,case_0628
+../../../data/spine/preprocessed/case_0081,case_0081
+../../../data/spine/preprocessed/case_0814,case_0814
+../../../data/spine/preprocessed/case_0607,case_0607
+../../../data/spine/preprocessed/case_1049,case_1049
+../../../data/spine/preprocessed/case_0005,case_0005
+../../../data/spine/preprocessed/case_0287,case_0287
+../../../data/spine/preprocessed/case_1137,case_1137
+../../../data/spine/preprocessed/case_1094,case_1094
+../../../data/spine/preprocessed/case_0405,case_0405
+../../../data/spine/preprocessed/case_0602,case_0602
+../../../data/spine/preprocessed/case_0115,case_0115
+../../../data/spine/preprocessed/case_0617,case_0617
+../../../data/spine/preprocessed/case_0907,case_0907
+../../../data/spine/preprocessed/case_0104,case_0104
+../../../data/spine/preprocessed/case_1017,case_1017
+../../../data/spine/preprocessed/case_0868,case_0868
+../../../data/spine/preprocessed/case_1139,case_1139
+../../../data/spine/preprocessed/case_0193,case_0193
+../../../data/spine/preprocessed/case_0888,case_0888
+../../../data/spine/preprocessed/case_0799,case_0799
+../../../data/spine/preprocessed/case_0446,case_0446
+../../../data/spine/preprocessed/case_1072,case_1072
+../../../data/spine/preprocessed/case_0363,case_0363
+../../../data/spine/preprocessed/case_0070,case_0070
+../../../data/spine/preprocessed/case_1170,case_1170
+../../../data/spine/preprocessed/case_0211,case_0211
+../../../data/spine/preprocessed/case_1130,case_1130
+../../../data/spine/preprocessed/case_1102,case_1102
+../../../data/spine/preprocessed/case_1109,case_1109
+../../../data/spine/preprocessed/case_0401,case_0401
+../../../data/spine/preprocessed/case_1122,case_1122
+../../../data/spine/preprocessed/case_0201,case_0201
+../../../data/spine/preprocessed/case_0854,case_0854
+../../../data/spine/preprocessed/case_0829,case_0829
+../../../data/spine/preprocessed/case_0306,case_0306
+../../../data/spine/preprocessed/case_0271,case_0271
+../../../data/spine/preprocessed/case_1001,case_1001
+../../../data/spine/preprocessed/case_0317,case_0317
+../../../data/spine/preprocessed/case_0082,case_0082
+../../../data/spine/preprocessed/case_0873,case_0873
+../../../data/spine/preprocessed/case_0282,case_0282
+../../../data/spine/preprocessed/case_0162,case_0162
+../../../data/spine/preprocessed/case_0763,case_0763
+../../../data/spine/preprocessed/case_0358,case_0358
+../../../data/spine/preprocessed/case_0604,case_0604
+../../../data/spine/preprocessed/case_0246,case_0246
+../../../data/spine/preprocessed/case_1132,case_1132
+../../../data/spine/preprocessed/case_1086,case_1086
+../../../data/spine/preprocessed/case_0293,case_0293
+../../../data/spine/preprocessed/case_0169,case_0169
+../../../data/spine/preprocessed/case_0466,case_0466
+../../../data/spine/preprocessed/case_0646,case_0646
+../../../data/spine/preprocessed/case_1123,case_1123
+../../../data/spine/preprocessed/case_0988,case_0988
+../../../data/spine/preprocessed/case_1090,case_1090
+../../../data/spine/preprocessed/case_0810,case_0810
+../../../data/spine/preprocessed/case_0065,case_0065
+../../../data/spine/preprocessed/case_0460,case_0460
+../../../data/spine/preprocessed/case_0432,case_0432
+../../../data/spine/preprocessed/case_0283,case_0283
+../../../data/spine/preprocessed/case_0522,case_0522
+../../../data/spine/preprocessed/case_0237,case_0237
+../../../data/spine/preprocessed/case_0410,case_0410
+../../../data/spine/preprocessed/case_1011,case_1011
+../../../data/spine/preprocessed/case_0057,case_0057
+../../../data/spine/preprocessed/case_0074,case_0074
+../../../data/spine/preprocessed/case_0368,case_0368
+../../../data/spine/preprocessed/case_0240,case_0240
+../../../data/spine/preprocessed/case_0651,case_0651
+../../../data/spine/preprocessed/case_1128,case_1128
+../../../data/spine/preprocessed/case_0419,case_0419
+../../../data/spine/preprocessed/case_0686,case_0686
+../../../data/spine/preprocessed/case_0024,case_0024
+../../../data/spine/preprocessed/case_1052,case_1052
+../../../data/spine/preprocessed/case_0486,case_0486
+../../../data/spine/preprocessed/case_0869,case_0869
+../../../data/spine/preprocessed/case_0821,case_0821
+../../../data/spine/preprocessed/case_0726,case_0726
+../../../data/spine/preprocessed/case_0483,case_0483
+../../../data/spine/preprocessed/case_0917,case_0917
+../../../data/spine/preprocessed/case_0023,case_0023
+../../../data/spine/preprocessed/case_0439,case_0439
+../../../data/spine/preprocessed/case_0349,case_0349
+../../../data/spine/preprocessed/case_0225,case_0225
+../../../data/spine/preprocessed/case_0236,case_0236
+../../../data/spine/preprocessed/case_0182,case_0182
+../../../data/spine/preprocessed/case_0212,case_0212
+../../../data/spine/preprocessed/case_1208,case_1208
+../../../data/spine/preprocessed/case_0239,case_0239
+../../../data/spine/preprocessed/case_0825,case_0825
+../../../data/spine/preprocessed/case_0626,case_0626
+../../../data/spine/preprocessed/case_1197,case_1197
+../../../data/spine/preprocessed/case_0168,case_0168
+../../../data/spine/preprocessed/case_0199,case_0199
+../../../data/spine/preprocessed/case_0095,case_0095
+../../../data/spine/preprocessed/case_0091,case_0091
+../../../data/spine/preprocessed/case_0273,case_0273
+../../../data/spine/preprocessed/case_0739,case_0739
+../../../data/spine/preprocessed/case_0794,case_0794
+../../../data/spine/preprocessed/case_0107,case_0107
+../../../data/spine/preprocessed/case_1117,case_1117
+../../../data/spine/preprocessed/case_1047,case_1047
+../../../data/spine/preprocessed/case_0063,case_0063
+../../../data/spine/preprocessed/case_0932,case_0932
+../../../data/spine/preprocessed/case_1008,case_1008
+../../../data/spine/preprocessed/case_0927,case_0927
+../../../data/spine/preprocessed/case_0981,case_0981
+../../../data/spine/preprocessed/case_0831,case_0831
+../../../data/spine/preprocessed/case_0881,case_0881
+../../../data/spine/preprocessed/case_0563,case_0563
+../../../data/spine/preprocessed/case_0806,case_0806
+../../../data/spine/preprocessed/case_0247,case_0247
+../../../data/spine/preprocessed/case_0235,case_0235
+../../../data/spine/preprocessed/case_0940,case_0940
+../../../data/spine/preprocessed/case_0098,case_0098
+../../../data/spine/preprocessed/case_0049,case_0049
+../../../data/spine/preprocessed/case_0533,case_0533
+../../../data/spine/preprocessed/case_0035,case_0035
+../../../data/spine/preprocessed/case_0850,case_0850
+../../../data/spine/preprocessed/case_0462,case_0462
+../../../data/spine/preprocessed/case_1100,case_1100
+../../../data/spine/preprocessed/case_0781,case_0781
+../../../data/spine/preprocessed/case_0499,case_0499
+../../../data/spine/preprocessed/case_0300,case_0300
+../../../data/spine/preprocessed/case_0383,case_0383
+../../../data/spine/preprocessed/case_1174,case_1174
+../../../data/spine/preprocessed/case_0488,case_0488
+../../../data/spine/preprocessed/case_1179,case_1179
+../../../data/spine/preprocessed/case_0648,case_0648
+../../../data/spine/preprocessed/case_0471,case_0471
+../../../data/spine/preprocessed/case_0555,case_0555
+../../../data/spine/preprocessed/case_0435,case_0435
+../../../data/spine/preprocessed/case_1000,case_1000
+../../../data/spine/preprocessed/case_0403,case_0403
+../../../data/spine/preprocessed/case_0407,case_0407
+../../../data/spine/preprocessed/case_0986,case_0986
+../../../data/spine/preprocessed/case_0670,case_0670
+../../../data/spine/preprocessed/case_0231,case_0231
+../../../data/spine/preprocessed/case_0789,case_0789
+../../../data/spine/preprocessed/case_0621,case_0621
+../../../data/spine/preprocessed/case_0505,case_0505
+../../../data/spine/preprocessed/case_0874,case_0874
+../../../data/spine/preprocessed/case_1081,case_1081
+../../../data/spine/preprocessed/case_0542,case_0542
+../../../data/spine/preprocessed/case_0100,case_0100
+../../../data/spine/preprocessed/case_0754,case_0754
+../../../data/spine/preprocessed/case_0094,case_0094
+../../../data/spine/preprocessed/case_1089,case_1089
+../../../data/spine/preprocessed/case_1182,case_1182
+../../../data/spine/preprocessed/case_1009,case_1009
+../../../data/spine/preprocessed/case_1125,case_1125
+../../../data/spine/preprocessed/case_0037,case_0037
+../../../data/spine/preprocessed/case_0737,case_0737
+../../../data/spine/preprocessed/case_1127,case_1127
+../../../data/spine/preprocessed/case_0860,case_0860
+../../../data/spine/preprocessed/case_0941,case_0941
+../../../data/spine/preprocessed/case_1018,case_1018
+../../../data/spine/preprocessed/case_1195,case_1195
+../../../data/spine/preprocessed/case_0524,case_0524
+../../../data/spine/preprocessed/case_0844,case_0844
+../../../data/spine/preprocessed/case_1077,case_1077
+../../../data/spine/preprocessed/case_0570,case_0570
+../../../data/spine/preprocessed/case_1070,case_1070
+../../../data/spine/preprocessed/case_1067,case_1067
+../../../data/spine/preprocessed/case_0183,case_0183
+../../../data/spine/preprocessed/case_0755,case_0755
+../../../data/spine/preprocessed/case_0332,case_0332
+../../../data/spine/preprocessed/case_0603,case_0603
+../../../data/spine/preprocessed/case_0295,case_0295
+../../../data/spine/preprocessed/case_1035,case_1035
+../../../data/spine/preprocessed/case_0120,case_0120
+../../../data/spine/preprocessed/case_0174,case_0174
+../../../data/spine/preprocessed/case_0566,case_0566
+../../../data/spine/preprocessed/case_0229,case_0229
+../../../data/spine/preprocessed/case_0141,case_0141
+../../../data/spine/preprocessed/case_1097,case_1097
+../../../data/spine/preprocessed/case_0205,case_0205
+../../../data/spine/preprocessed/case_0399,case_0399
+../../../data/spine/preprocessed/case_0573,case_0573
+../../../data/spine/preprocessed/case_1165,case_1165
+../../../data/spine/preprocessed/case_0221,case_0221
+../../../data/spine/preprocessed/case_0526,case_0526
+../../../data/spine/preprocessed/case_0898,case_0898
+../../../data/spine/preprocessed/case_0866,case_0866
+../../../data/spine/preprocessed/case_0943,case_0943
+../../../data/spine/preprocessed/case_1057,case_1057
+../../../data/spine/preprocessed/case_0414,case_0414
+../../../data/spine/preprocessed/case_0811,case_0811
+../../../data/spine/preprocessed/case_0096,case_0096
+../../../data/spine/preprocessed/case_0463,case_0463
+../../../data/spine/preprocessed/case_0933,case_0933
+../../../data/spine/preprocessed/case_0544,case_0544
+../../../data/spine/preprocessed/case_0949,case_0949
+../../../data/spine/preprocessed/case_0835,case_0835
+../../../data/spine/preprocessed/case_0575,case_0575
+../../../data/spine/preprocessed/case_0800,case_0800
+../../../data/spine/preprocessed/case_0151,case_0151
+../../../data/spine/preprocessed/case_0324,case_0324
+../../../data/spine/preprocessed/case_0421,case_0421
+../../../data/spine/preprocessed/case_1168,case_1168
+../../../data/spine/preprocessed/case_0711,case_0711
+../../../data/spine/preprocessed/case_0827,case_0827
+../../../data/spine/preprocessed/case_0058,case_0058
+../../../data/spine/preprocessed/case_0841,case_0841
+../../../data/spine/preprocessed/case_0990,case_0990
+../../../data/spine/preprocessed/case_0245,case_0245
+../../../data/spine/preprocessed/case_1198,case_1198
+../../../data/spine/preprocessed/case_0341,case_0341
+../../../data/spine/preprocessed/case_0543,case_0543
+../../../data/spine/preprocessed/case_0347,case_0347
+../../../data/spine/preprocessed/case_1185,case_1185
+../../../data/spine/preprocessed/case_0506,case_0506
+../../../data/spine/preprocessed/case_1092,case_1092
+../../../data/spine/preprocessed/case_0217,case_0217
+../../../data/spine/preprocessed/case_1200,case_1200
+../../../data/spine/preprocessed/case_1133,case_1133
+../../../data/spine/preprocessed/case_0501,case_0501
+../../../data/spine/preprocessed/case_0511,case_0511
+../../../data/spine/preprocessed/case_0766,case_0766
+../../../data/spine/preprocessed/case_0380,case_0380
+../../../data/spine/preprocessed/case_0228,case_0228
+../../../data/spine/preprocessed/case_0819,case_0819
+../../../data/spine/preprocessed/case_0321,case_0321
+../../../data/spine/preprocessed/case_0167,case_0167
+../../../data/spine/preprocessed/case_0163,case_0163
+../../../data/spine/preprocessed/case_0270,case_0270
+../../../data/spine/preprocessed/case_0926,case_0926
+../../../data/spine/preprocessed/case_0784,case_0784
+../../../data/spine/preprocessed/case_0530,case_0530
+../../../data/spine/preprocessed/case_0909,case_0909
+../../../data/spine/preprocessed/case_0569,case_0569
+../../../data/spine/preprocessed/case_0901,case_0901
+../../../data/spine/preprocessed/case_0894,case_0894
+../../../data/spine/preprocessed/case_0257,case_0257
+../../../data/spine/preprocessed/case_0002,case_0002
+../../../data/spine/preprocessed/case_0415,case_0415
+../../../data/spine/preprocessed/case_1169,case_1169
+../../../data/spine/preprocessed/case_0375,case_0375
+../../../data/spine/preprocessed/case_0741,case_0741
+../../../data/spine/preprocessed/case_0093,case_0093
+../../../data/spine/preprocessed/case_0027,case_0027
+../../../data/spine/preprocessed/case_0497,case_0497
+../../../data/spine/preprocessed/case_1154,case_1154
+../../../data/spine/preprocessed/case_0417,case_0417
+../../../data/spine/preprocessed/case_1076,case_1076
+../../../data/spine/preprocessed/case_0274,case_0274
+../../../data/spine/preprocessed/case_0139,case_0139
+../../../data/spine/preprocessed/case_0350,case_0350
+../../../data/spine/preprocessed/case_0143,case_0143
+../../../data/spine/preprocessed/case_0006,case_0006
+../../../data/spine/preprocessed/case_0773,case_0773
+../../../data/spine/preprocessed/case_0427,case_0427
+../../../data/spine/preprocessed/case_0767,case_0767
+../../../data/spine/preprocessed/case_1201,case_1201
+../../../data/spine/preprocessed/case_0275,case_0275
+../../../data/spine/preprocessed/case_0117,case_0117
+../../../data/spine/preprocessed/case_0260,case_0260
+../../../data/spine/preprocessed/case_0069,case_0069
+../../../data/spine/preprocessed/case_0946,case_0946
+../../../data/spine/preprocessed/case_0517,case_0517
+../../../data/spine/preprocessed/case_0426,case_0426
+../../../data/spine/preprocessed/case_0127,case_0127
+../../../data/spine/preprocessed/case_0138,case_0138
+../../../data/spine/preprocessed/case_0256,case_0256
+../../../data/spine/preprocessed/case_1153,case_1153
+../../../data/spine/preprocessed/case_0564,case_0564
+../../../data/spine/preprocessed/case_0077,case_0077
+../../../data/spine/preprocessed/case_0261,case_0261
+../../../data/spine/preprocessed/case_0893,case_0893
+../../../data/spine/preprocessed/case_0528,case_0528
+../../../data/spine/preprocessed/case_0134,case_0134
+../../../data/spine/preprocessed/case_0025,case_0025
+../../../data/spine/preprocessed/case_0284,case_0284
+../../../data/spine/preprocessed/case_0116,case_0116

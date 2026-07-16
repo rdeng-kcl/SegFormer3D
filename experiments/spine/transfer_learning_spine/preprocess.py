@@ -145,4 +145,5 @@ if __name__ == '__main__':
             f.write('data_path,case_name')
             for i in idx:
                 path = all_set[i]
-                f.write(f'\n{path.resolve()},{path.stem}')
+                rpath = '../../../' + path.relative_to(output_dir.parents[1]).as_posix()
+                f.write(f'\n{rpath},{path.stem}')
