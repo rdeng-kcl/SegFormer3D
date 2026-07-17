@@ -188,6 +188,10 @@ class Segmentation_Trainer:
         epoch_avg_loss = 0.0
         total_dice = 0.0
 
+        # skip validation if calculate_metrics is False
+        if not self.calculate_metrics:
+            return epoch_avg_loss
+
         # set model to eval mode
         self.model.eval()
         if use_ema:
@@ -216,13 +220,12 @@ class Segmentation_Trainer:
                 loss = self.criterion(predicted, labels.cpu())
 
                 # calculate metrics
-                if self.calculate_metrics:
-                    mean_dice = self.sliding_window_inference.calc_dice_metric(
-                        predicted, labels.cpu()
-                    )
-                    # mean_dice = self._calc_dice_metric(data, labels, use_ema)
-                    # keep track of number of total correct
-                    total_dice += mean_dice
+                mean_dice = self.sliding_window_inference.calc_dice_metric(
+                    predicted, labels.cpu()
+                )
+                # mean_dice = self._calc_dice_metric(data, labels, use_ema)
+                # keep track of number of total correct
+                total_dice += mean_dice
 
                 # update loss for the current batch
                 epoch_avg_loss += loss.detach().item()
