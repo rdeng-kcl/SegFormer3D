@@ -137,6 +137,7 @@ class Segmentation_Trainer:
 
                 # forward pass
                 predicted = self.model.forward(data)
+                self.accelerator.print(f"VRAM max memory allocated: {torch.cuda.max_memory_allocated() / 1024**2:.2f} MB")
 
                 # calculate loss
                 loss = self.criterion(predicted, labels)
@@ -208,6 +209,8 @@ class Segmentation_Trainer:
                     val_model = self.model
 
                 predicted = self.sliding_window_inference.forward(data, val_model)
+                if self.num_epochs < 10:
+                    self.accelerator.print(f"Max memory allocated: {torch.cuda.max_memory_allocated() / 1024**2:.2f} MB")
 
                 # calculate loss (detach to avoid memory accumulation)
                 loss = self.criterion(predicted, labels.cpu())
@@ -275,14 +278,14 @@ class Segmentation_Trainer:
             self.current_epoch = epoch
             self._update_scheduler()
 
-            if self.num_epochs == 1:
+            if self.num_epochs < 10:
                 t = time.time()
 
             # run a single training step
             train_loss = self._train_step()
             self.epoch_train_loss = train_loss
 
-            if self.num_epochs == 1:
+            if self.num_epochs < 10:
                 self.accelerator.print(f'training time: {time.time() - t:.1f} seconds')
                 t = time.time()
 
@@ -290,7 +293,7 @@ class Segmentation_Trainer:
             val_loss = self._val_step(use_ema=False)
             self.epoch_val_loss = val_loss
 
-            if self.num_epochs == 1:
+            if self.num_epochs < 10:
                 self.accelerator.print(f'validation time: {time.time() - t:.1f} seconds')
 
             # if enabled run ema every x steps
