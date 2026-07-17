@@ -40,6 +40,8 @@ if __name__ == '__main__':
     state_dict = torch.load(checkpoint_file, map_location="cpu")
     model.load_state_dict(state_dict)
 
+    # summary(model, input_size=(5, 1, 96, 96, 96))
+
     model.eval()
     sliding_window_inference = SlidingWindowInference(
         config["sliding_window_inference"]["roi"],
