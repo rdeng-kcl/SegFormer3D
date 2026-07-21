@@ -69,6 +69,7 @@ class Segmentation_Trainer:
         self.sliding_window_inference = SlidingWindowInference(
             config["sliding_window_inference"]["roi"],
             config["sliding_window_inference"]["sw_batch_size"],
+            config["sliding_window_inference"]["depth_chunks"],
         )
 
         # training scheduler

@@ -18,7 +18,7 @@ class SlidingWindowInference:
     batch processing and overlap handling.
     """
     
-    def __init__(self, roi: Tuple[int, int, int], sw_batch_size: int) -> None:
+    def __init__(self, roi: Tuple[int, int, int], sw_batch_size: int, depth_chunks: int = 32) -> None:
         """Initialize sliding window inference.
         
         Args:
@@ -38,6 +38,7 @@ class SlidingWindowInference:
         )
         self.sw_batch_size = sw_batch_size
         self.roi = roi
+        self.depth_chunks = depth_chunks
 
     def __call__(
         self, 
@@ -55,7 +56,6 @@ class SlidingWindowInference:
         Returns:
             Average Dice score across all classes (percentage)
         """
-        self.dice_metric.reset()
         
         # Perform sliding window inference
         logits = self.forward(val_inputs, model)
@@ -83,6 +83,9 @@ class SlidingWindowInference:
         logits: torch.Tensor,
         val_labels: torch.Tensor,
     ) -> float:
+        # reset buffer
+        self.dice_metric.reset()
+
         # Decollate and post-process predictions
         val_labels_list = decollate_batch(val_labels)
         val_outputs_list = decollate_batch(logits)
@@ -103,6 +106,57 @@ class SlidingWindowInference:
         # ET acc: acc[2]
         return avg_acc * 100.0
 
+    def calc_loss_dice_metric(
+        self,
+        logits: torch.Tensor,
+        val_labels: torch.Tensor,
+        criterion: nn.Module,
+        device
+    ) -> float:
+        """Compute loss and dice metric using sliding window inference.
+
+        Args:
+            logits: Logits from the model (B, C, D, H, W)
+            val_labels: Ground truth labels (B, C, D, H, W)
+            criterion: Loss function
+
+        Returns:
+            Tuple of (loss, dice_score)
+        """
+        # reset buffer
+        self.dice_metric.reset()
+
+        losses = []
+        predictions = []
+        labels_list = decollate_batch(val_labels)
+
+        for logit, label in zip(decollate_batch(logits), labels_list):
+
+            # process in chunks in gpu
+            channels, D, H, W = logit.shape
+            pred_cpu = torch.zeros((1, D, H, W), dtype=torch.float32)
+            for start_d in range(0, D, self.depth_chunks):
+                end_d = min(start_d + self.depth_chunks, D)
+                logit_chunk_gpu = logit[:, start_d:end_d, :, :].to(device)
+                label_chunk_gpu = label[:, start_d:end_d, :, :].to(device)
+
+                pred_chunk_gpu = self.post_transform(logit_chunk_gpu)
+                pred_cpu[:, start_d:end_d, :, :] = pred_chunk_gpu.cpu()
+
+                loss_chunk = criterion(logit_chunk_gpu.unsqueeze(0), label_chunk_gpu.unsqueeze(0))
+                losses.append(loss_chunk.detach().item())
+            predictions.append(pred_cpu)
+
+        # compute loss
+        loss = sum(losses) / len(losses)
+
+        # compute dice metric on gpu
+        self.dice_metric(y_pred=predictions, y=labels_list)
+        acc = self.dice_metric.aggregate().numpy()
+        avg_acc = float(acc.mean()) * 100.0
+
+        return loss, avg_acc
+
 
 def build_metric_fn(metric_type: str, metric_arg: Dict) -> SlidingWindowInference:
     """Factory function to build metric computation modules.
@@ -121,6 +175,7 @@ def build_metric_fn(metric_type: str, metric_arg: Dict) -> SlidingWindowInferenc
         return SlidingWindowInference(
             roi=metric_arg["roi"],
             sw_batch_size=metric_arg["sw_batch_size"],
+            depth_chunks=metric_arg["depth_chunks"],
         )
     else:
         raise ValueError(

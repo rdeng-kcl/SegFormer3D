@@ -145,7 +145,7 @@ def launch_transfer_learning(config_path) -> Dict:
     model = accelerator.prepare_model(model=model)
     optimizer = accelerator.prepare_optimizer(optimizer=optimizer)
     trainloader = accelerator.prepare_data_loader(data_loader=trainloader)
-    valloader = accelerator.prepare_data_loader(data_loader=valloader)
+    valloader = accelerator.prepare_data_loader(data_loader=valloader, device_placement=False) # leave val data on cpu
     warmup_scheduler = accelerator.prepare_scheduler(scheduler=warmup_scheduler)
     training_scheduler = accelerator.prepare_scheduler(scheduler=training_scheduler)
 

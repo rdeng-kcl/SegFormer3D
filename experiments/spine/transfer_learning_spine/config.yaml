@@ -60,6 +60,7 @@ ema:
 sliding_window_inference:
   sw_batch_size: 5
   roi: [96, 96, 96]
+  depth_chunks: 32
 
 # gradient clipping (not implemented yet)
 clip_gradients:
