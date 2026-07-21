@@ -74,7 +74,7 @@ training_parameters:
   cutoff_epoch: 600
   load_optimizer: False
   save_every: 50
-  print_every: 200  # num of data
+  print_every: null  # num of training iterations
   calculate_metrics: True
   grad_accumulate_steps: 1 # default: 1
   checkpoint_save_dir: "model_checkpoints/best_dice_checkpoint"
