@@ -141,7 +141,6 @@ class Segmentation_Trainer:
 
                 # forward pass
                 predicted = self.model.forward(data)
-                self.accelerator.print(f"VRAM max memory allocated: {torch.cuda.max_memory_allocated() / 1024**2:.2f} MB")
 
                 # calculate loss
                 loss = self.criterion(predicted, labels)
@@ -294,6 +293,9 @@ class Segmentation_Trainer:
 
             if self.num_epochs < 10:
                 self.accelerator.print(f'training time: {time.time() - t:.1f} seconds')
+                self.accelerator.print(f"training vram: {torch.cuda.memory_allocated()/1024**2:.2f}" +
+                                       f" max {torch.cuda.max_memory_allocated()/1024**2:.2f}" +
+                                       f" res {torch.cuda.memory_reserved()/1024**2:.2f} MB")
                 t = time.time()
 
             # run a single validation step
@@ -302,6 +304,9 @@ class Segmentation_Trainer:
 
             if self.num_epochs < 10:
                 self.accelerator.print(f'validation time: {time.time() - t:.1f} seconds')
+                self.accelerator.print(f"validation vram: {torch.cuda.memory_allocated()/1024**2:.2f}" +
+                                       f" max {torch.cuda.max_memory_allocated()/1024**2:.2f}" +
+                                       f" res {torch.cuda.memory_reserved()/1024**2:.2f} MB")
 
             # if enabled run ema every x steps
             self._val_ema_model()
