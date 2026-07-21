@@ -203,39 +203,42 @@ class Segmentation_Trainer:
         # set epoch to shift data order each epoch
         # self.val_dataloader.sampler.set_epoch(self.current_epoch)
         with torch.no_grad():
-            for index, (raw_data) in enumerate(self.val_dataloader):
-                # get data ex: (data, target)
-                data, labels = (
-                    raw_data["image"],
-                    raw_data["label"],
-                )
-                # forward pass using sliding window inference to support arbitrary shaped inputs
-                if use_ema:
-                    val_model = self.ema_model
-                else:
-                    val_model = self.model
+            with self.accelerator.autocast():
+                for index, (raw_data) in enumerate(tqdm(self.val_dataloader, desc='VALID', position=0, leave=False)):
 
-                predicted = self.sliding_window_inference.forward(data, val_model)
-                if self.num_epochs < 10:
-                    self.accelerator.print(f"Max memory allocated: {torch.cuda.max_memory_allocated() / 1024**2:.2f} MB")
+                    # reset peak memory
+                    torch.cuda.reset_peak_memory_stats()
 
-                # calculate loss (detach to avoid memory accumulation)
-                loss = self.criterion(predicted, labels.cpu())
+                    # Free up memory periodically during validation
+                    if index % 10 == 0 and torch.cuda.is_available():
+                        torch.cuda.empty_cache()
 
-                # calculate metrics
-                mean_dice = self.sliding_window_inference.calc_dice_metric(
-                    predicted, labels.cpu()
-                )
-                # mean_dice = self._calc_dice_metric(data, labels, use_ema)
-                # keep track of number of total correct
-                total_dice += mean_dice
+                    # get data ex: (data, target)
+                    data, labels = (
+                        raw_data["image"],
+                        raw_data["label"],
+                    )
 
-                # update loss for the current batch
-                epoch_avg_loss += loss.detach().item()
+                    # forward pass using sliding window inference to support arbitrary shaped inputs
+                    if use_ema:
+                        val_model = self.ema_model
+                    else:
+                        val_model = self.model
 
-                # Free up memory periodically during validation
-                if index % 10 == 0 and torch.cuda.is_available():
-                    torch.cuda.empty_cache()
+                    predicted = self.sliding_window_inference.forward(data, val_model)
+
+                    loss, mean_dice = self.sliding_window_inference.calc_loss_dice_metric(
+                        predicted,
+                        labels,
+                        self.criterion,
+                        self.accelerator.device,
+                    )
+
+                    # keep track of number of total correct
+                    total_dice += mean_dice
+
+                    # update loss for the current batch
+                    epoch_avg_loss += loss
 
         if use_ema:
             self.epoch_val_ema_dice = total_dice / float(index + 1)
