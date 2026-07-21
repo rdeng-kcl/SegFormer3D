@@ -5,6 +5,7 @@ from torch import nn
 from einops import rearrange
 from functools import partial
 from typing import Tuple, List
+import torch.utils.checkpoint as cp
 
 def build_segformer3d_model(config=None):
     model = SegFormer3D(
@@ -22,6 +23,7 @@ def build_segformer3d_model(config=None):
         ],
         num_classes=config["model_parameters"]["num_classes"],
         decoder_dropout=config["model_parameters"]["decoder_dropout"],
+        gradient_checkpointing=config["model_parameters"]["gradient_checkpointing"],
     )
     return model
 
@@ -41,6 +43,7 @@ class SegFormer3D(nn.Module):
         decoder_head_embedding_dim: int = 256,
         num_classes: int = 3,
         decoder_dropout: float = 0.0,
+        gradient_checkpointing: bool = False,
     ):
         """
         in_channels: number of the input channels
@@ -56,6 +59,7 @@ class SegFormer3D(nn.Module):
         decoder_head_embedding_dim: projection dimension of the mlp layer in the all-mlp-decoder module
         num_classes: number of the output channel of the network
         decoder_dropout: dropout rate of the concatenated feature maps
+        gradient_checkpointing: whether to use gradient checkpointing
 
         """
         super().__init__()
@@ -69,6 +73,7 @@ class SegFormer3D(nn.Module):
             mlp_ratios=mlp_ratios,
             num_heads=num_heads,
             depths=depths,
+            gradient_checkpointing=gradient_checkpointing,
         )
         # decoder takes in the feature maps in the reversed order
         reversed_embed_dims = embed_dims[::-1]
@@ -305,6 +310,7 @@ class MixVisionTransformer(nn.Module):
         mlp_ratios: list = [2, 2, 2, 2],
         num_heads: list = [1, 2, 5, 8],
         depths: list = [2, 2, 2, 2],
+        gradient_checkpointing: bool = False,
     ):
         """
         in_channels: number of the input channels
@@ -317,6 +323,7 @@ class MixVisionTransformer(nn.Module):
         mlp_ratio: at which rate increasse the projection dim of the hidden_state in the mlp
         num_heads: number of attenion heads
         depth: number of attention layers
+        gradient_checkpointing: whether to use gradient checkpointing
         """
         super().__init__()
 
@@ -410,58 +417,83 @@ class MixVisionTransformer(nn.Module):
         )
         self.norm4 = nn.LayerNorm(embed_dims[3])
 
+        self.gradient_checkpointing = gradient_checkpointing
+
     def forward(self, x):
         out = []
         # at each stage these are the following mappings:
         # (batch_size, num_patches, hidden_state)
         # (num_patches,) -> (D, H, W)
         # (batch_size, num_patches, hidden_state) -> (batch_size, hidden_state, D, H, W)
+        x = self.stage1(x)
+        out.append(x)
+        x = self.stage2(x)
+        out.append(x)
+        x = self.stage3(x)
+        out.append(x)
+        x = self.stage4(x)
+        out.append(x)
+        return out
 
+    def stage1(self, x):
         # stage 1
         x = self.embed_1(x)
         B, N, C = x.shape
         n = cube_root(N)
         for i, blk in enumerate(self.tf_block1):
-            x = blk(x)
+            if self.training and self.gradient_checkpointing:
+                x = cp.checkpoint(blk, x, use_reentrant=False)
+            else:
+                x = blk(x)
         x = self.norm1(x)
         # (B, N, C) -> (B, D, H, W, C) -> (B, C, D, H, W)
         x = x.reshape(B, n, n, n, -1).permute(0, 4, 1, 2, 3).contiguous()
-        out.append(x)
+        return x
 
+    def stage2(self, x):
         # stage 2
         x = self.embed_2(x)
         B, N, C = x.shape
         n = cube_root(N)
         for i, blk in enumerate(self.tf_block2):
-            x = blk(x)
+            if self.training and self.gradient_checkpointing:
+                x = cp.checkpoint(blk, x, use_reentrant=False)
+            else:
+                x = blk(x)
         x = self.norm2(x)
         # (B, N, C) -> (B, D, H, W, C) -> (B, C, D, H, W)
         x = x.reshape(B, n, n, n, -1).permute(0, 4, 1, 2, 3).contiguous()
-        out.append(x)
+        return x
 
+    def stage3(self, x):
         # stage 3
         x = self.embed_3(x)
         B, N, C = x.shape
         n = cube_root(N)
         for i, blk in enumerate(self.tf_block3):
-            x = blk(x)
+            if self.training and self.gradient_checkpointing:
+                x = cp.checkpoint(blk, x, use_reentrant=False)
+            else:
+                x = blk(x)
         x = self.norm3(x)
         # (B, N, C) -> (B, D, H, W, C) -> (B, C, D, H, W)
         x = x.reshape(B, n, n, n, -1).permute(0, 4, 1, 2, 3).contiguous()
-        out.append(x)
+        return x
 
+    def stage4(self, x):
         # stage 4
         x = self.embed_4(x)
         B, N, C = x.shape
         n = cube_root(N)
         for i, blk in enumerate(self.tf_block4):
-            x = blk(x)
+            if self.training and self.gradient_checkpointing:
+                x = cp.checkpoint(blk, x, use_reentrant=False)
+            else:
+                x = blk(x)
         x = self.norm4(x)
         # (B, N, C) -> (B, D, H, W, C) -> (B, C, D, H, W)
         x = x.reshape(B, n, n, n, -1).permute(0, 4, 1, 2, 3).contiguous()
-        out.append(x)
-
-        return out
+        return x
 
 
 class _MLP(nn.Module):
