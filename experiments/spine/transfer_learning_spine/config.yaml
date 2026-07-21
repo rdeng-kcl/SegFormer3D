@@ -58,7 +58,7 @@ ema:
   val_ema_every: 1
 
 sliding_window_inference:
-  sw_batch_size: 5
+  sw_batch_size: 12
   roi: [96, 96, 96]
   depth_chunks: 32
 
@@ -92,7 +92,6 @@ dataset_parameters:
     # use fold 0 for testing small dataset, else null for full training
     fold_id: null
     # fold_id: 0
-
 
   val_dataset_args:
     root: "../../../data/spine"
