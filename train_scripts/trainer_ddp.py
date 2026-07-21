@@ -405,7 +405,16 @@ class Segmentation_Trainer:
                 f"val mean_dice -- {colored(f'{self.best_val_dice:.5f}', color='green')} -- saved"
             )
 
-        elif self.current_epoch % self.save_every == 0:
+        else:
+            self.accelerator.print(
+                f"epoch -- {str(self.current_epoch).zfill(4)} || "
+                f"train loss -- {self.epoch_train_loss:.5f} || "
+                f"val loss -- {self.epoch_val_loss:.5f} || "
+                f"lr -- {self.scheduler.get_last_lr()[0]:.8f} || "
+                f"val mean_dice -- {self.epoch_val_dice:.5f}"
+            )
+
+        if self.current_epoch % self.save_every == 0:
             save_path = os.path.join(
                 self.checkpoint_save_dir,
                 f"checkpoint_{self.current_epoch:04d}",
@@ -414,19 +423,11 @@ class Segmentation_Trainer:
             self._save_checkpoint(save_path)
 
             self.accelerator.print(
-                f"epoch -- {colored(str(self.current_epoch).zfill(4), color='green')} || "
-                f"train loss -- {colored(f'{self.epoch_train_loss:.5f}', color='green')} || "
-                f"val loss -- {colored(f'{self.epoch_val_loss:.5f}', color='green')} || "
-                f"lr -- {colored(f'{self.scheduler.get_last_lr()[0]:.8f}', color='green')} || "
-                f"val mean_dice -- {colored(f'{self.best_val_dice:.5f}', color='green')} -- saved"
-            )
-        else:
-            self.accelerator.print(
-                f"epoch -- {str(self.current_epoch).zfill(4)} || "
-                f"train loss -- {self.epoch_train_loss:.5f} || "
-                f"val loss -- {self.epoch_val_loss:.5f} || "
-                f"lr -- {self.scheduler.get_last_lr()[0]:.8f} || "
-                f"val mean_dice -- {self.epoch_val_dice:.5f}"
+                f"epoch -- {colored(str(self.current_epoch).zfill(4), color='blue')} || "
+                f"train loss -- {colored(f'{self.epoch_train_loss:.5f}', color='blue')} || "
+                f"val loss -- {colored(f'{self.epoch_val_loss:.5f}', color='blue')} || "
+                f"lr -- {colored(f'{self.scheduler.get_last_lr()[0]:.8f}', color='blue')} || "
+                f"val mean_dice -- {colored(f'{self.best_val_dice:.5f}', color='blue')} -- saved"
             )
 
     def _save_checkpoint(self, filename: str) -> None:
