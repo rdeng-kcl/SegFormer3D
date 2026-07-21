@@ -51,8 +51,11 @@ def launch_transfer_learning(config_path) -> Dict:
     # don't raise checkpoint override for development
     try:
         build_directories(config)
-    except ValueError:
-        warnings.warn("Checkpoint directory already exists. Overwriting...")
+    except ValueError as e:
+        if config["training_parameters"]["overwrite_checkpoint"]:
+            warnings.warn("Checkpoint directory already exists. Overwriting ...")
+        else:
+            raise e
 
     # build training dataset & training data loader
     trainset = build_dataset(

@@ -78,6 +78,7 @@ training_parameters:
   calculate_metrics: True
   grad_accumulate_steps: 1 # default: 1
   checkpoint_save_dir: "model_checkpoints/best_dice_checkpoint"
+  overwrite_checkpoint: False
   load_checkpoint: # not implemented yet
     load_full_checkpoint: False
     load_model_only: False
