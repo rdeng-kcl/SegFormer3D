@@ -126,7 +126,7 @@ class Segmentation_Trainer:
 
         # set epoch to shift data order each epoch
         # self.train_dataloader.sampler.set_epoch(self.current_epoch)
-        for index, raw_data in enumerate(self.train_dataloader):
+        for index, raw_data in enumerate(tqdm(self.train_dataloader, desc='TRAIN', position=0, leave=False)):
             # add in gradient accumulation
             with self.accelerator.accumulate(self.model):
                 # get data ex: (data, target)
@@ -280,7 +280,7 @@ class Segmentation_Trainer:
             )
 
         # Run Training and Validation
-        for epoch in tqdm(range(self.num_epochs)):
+        for epoch in tqdm(range(self.num_epochs), desc='EPOCH', position=1):
             # update epoch
             self.current_epoch = epoch
             self._update_scheduler()
