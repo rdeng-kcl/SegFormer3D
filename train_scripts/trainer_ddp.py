@@ -53,6 +53,9 @@ class Segmentation_Trainer:
         # accelerate object
         self.accelerator = accelerator
 
+        # hijack the print function
+        self.accelerator.print = tqdm.write
+
         # get wandb object
         self.wandb_tracker = accelerator.get_tracker("wandb")
 
