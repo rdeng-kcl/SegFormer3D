@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
     # load model
     model = build_architecture(config)
-    checkpoint_file = "model_checkpoints/background_yes_failed/pytorch_model.bin"
+    checkpoint_file = "model_checkpoints/dicece_success/pytorch_model.bin"
     state_dict = torch.load(checkpoint_file, map_location="cpu")
     model.load_state_dict(state_dict)
 
