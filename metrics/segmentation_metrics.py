@@ -88,15 +88,15 @@ class SlidingWindowInference:
         logits: torch.Tensor,
         val_labels: torch.Tensor,
     ) -> float:
-        # reset buffer
-        self.dice_metric.reset()
-
         # Decollate and post-process predictions
         val_labels_list = decollate_batch(val_labels)
         val_outputs_list = decollate_batch(logits)
         val_output_convert = [
-            self.post_transform(val_pred_tensor) for val_pred_tensor in val_outputs_list
+            self.to_onehot(val_pred_tensor) for val_pred_tensor in val_outputs_list
         ]
+
+        # reset buffer
+        self.dice_metric.reset()
         
         # Compute Dice metric
         self.dice_metric(y_pred=val_output_convert, y=val_labels_list)
