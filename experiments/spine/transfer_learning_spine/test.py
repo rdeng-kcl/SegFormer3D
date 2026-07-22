@@ -48,10 +48,13 @@ if __name__ == '__main__':
         config["sliding_window_inference"]["sw_batch_size"],
     )
 
-    logits = sliding_window_inference.forward(image.to(cuda).unsqueeze(0), model.to(cuda)).squeeze(0)
-    predicted = sliding_window_inference.post_transform(logits).cpu().as_tensor().to(torch.int8)
+    logits = sliding_window_inference.forward(image.to(cuda).unsqueeze(0), model.to(cuda))
+    predicted = sliding_window_inference.to_label(logits.squeeze(0)).cpu().as_tensor().to(torch.int8)
 
     torch.save(predicted, "predicted.pt")
+
+    _, dice = sliding_window_inference.calc_loss_dice_metric(logits, label.unsqueeze(0), criterion=None, device=cuda)
+    print(f"Dice: {dice:.2f} %")
 
     image = image.numpy()
     image = image[0, ...]
