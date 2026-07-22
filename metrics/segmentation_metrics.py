@@ -31,10 +31,14 @@ class SlidingWindowInference:
             get_not_nans=False,
             ignore_empty=True
         )
-        self.post_transform = Compose(
+        self.to_onehot = Compose(
             [
-                Activations(sigmoid=True),
-                AsDiscrete(argmax=True, threshold=0.5),
+                AsDiscrete(argmax=True, to_onehot=26),
+            ]
+        )
+        self.to_label = Compose(
+            [
+                AsDiscrete(argmax=True),
             ]
         )
         self.sw_batch_size = sw_batch_size
