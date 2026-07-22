@@ -151,7 +151,7 @@ class SlidingWindowInference:
             self.dice_metric.reset()
             self.dice_metric(y_pred=[pred_cpu], y=[label])
             raw_dice = self.dice_metric.aggregate().cpu().numpy()
-            present_classes = torch.unique(label)
+            present_classes = torch.unique(label).numpy().astype(int)
             dices.append(float(raw_dice[present_classes].mean()))
 
         # compute loss
