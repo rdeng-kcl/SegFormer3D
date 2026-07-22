@@ -77,7 +77,7 @@ class SlidingWindowInference:
                 roi_size=self.roi,
                 sw_batch_size=self.sw_batch_size,
                 predictor=model,
-                overlap=0.1,
+                overlap=0.167,
                 sw_device="cuda",
                 device="cpu"
             )
