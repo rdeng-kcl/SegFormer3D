@@ -139,13 +139,13 @@ class SlidingWindowInference:
 
             # process in chunks in gpu
             channels, D, H, W = logit.shape
-            pred_cpu = torch.zeros((1, D, H, W), dtype=torch.float32)
+            pred_cpu = torch.zeros((channels, D, H, W), dtype=torch.float32)
             for start_d in range(0, D, self.depth_chunks):
                 end_d = min(start_d + self.depth_chunks, D)
                 logit_chunk_gpu = logit[:, start_d:end_d, :, :].to(device)
                 label_chunk_gpu = label[:, start_d:end_d, :, :].to(device)
 
-                pred_chunk_gpu = self.post_transform(logit_chunk_gpu)
+                pred_chunk_gpu = self.to_onehot(logit_chunk_gpu)
                 pred_cpu[:, start_d:end_d, :, :] = pred_chunk_gpu.cpu()
 
                 loss_chunk = criterion(logit_chunk_gpu.unsqueeze(0), label_chunk_gpu.unsqueeze(0))
