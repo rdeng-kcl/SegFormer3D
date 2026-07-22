@@ -26,9 +26,10 @@ class SlidingWindowInference:
             sw_batch_size: Batch size for sliding window patches
         """
         self.dice_metric = DiceMetric(
-            include_background=False, 
+            include_background=True, 
             reduction="mean_batch", 
-            get_not_nans=False
+            get_not_nans=False,
+            ignore_empty=True
         )
         self.post_transform = Compose(
             [
