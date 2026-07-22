@@ -128,15 +128,10 @@ class SlidingWindowInference:
         Returns:
             Tuple of (loss, dice_score)
         """
-        # reset buffer
-        self.dice_metric.reset()
-
         losses = []
-        predictions = []
-        labels_list = decollate_batch(val_labels)
+        dices = []
 
-        for logit, label in zip(decollate_batch(logits), labels_list):
-
+        for logit, label in zip(decollate_batch(logits), decollate_batch(val_labels)):
             # process in chunks in gpu
             channels, D, H, W = logit.shape
             pred_cpu = torch.zeros((channels, D, H, W), dtype=torch.float32)
@@ -151,13 +146,22 @@ class SlidingWindowInference:
                 if criterion is not None:
                     loss_chunk = criterion(logit_chunk_gpu.unsqueeze(0), label_chunk_gpu.unsqueeze(0))
                     losses.append(loss_chunk.detach().item())
-            predictions.append(pred_cpu)
+
+            # compute dice of the full volume excluding unpresent classes
+            self.dice_metric.reset()
+            self.dice_metric(y_pred=[pred_cpu], y=[label])
+            raw_dice = self.dice_metric.aggregate().cpu().numpy()
+            present_classes = torch.unique(label)
+            dices.append(float(raw_dice[present_classes].mean()))
 
         # compute loss
         if criterion is not None:
             loss = sum(losses) / len(losses)
         else:
             loss = None
+
+        # compute dice
+        avg_acc = sum(dices) / len(dices) * 100.0
 
         return loss, avg_acc
 
