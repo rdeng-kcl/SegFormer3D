@@ -115,7 +115,7 @@ class SlidingWindowInference:
         self,
         logits: torch.Tensor,
         val_labels: torch.Tensor,
-        criterion: nn.Module,
+        criterion: nn.Module | None,
         device
     ) -> float:
         """Compute loss and dice metric using sliding window inference.
@@ -148,17 +148,16 @@ class SlidingWindowInference:
                 pred_chunk_gpu = self.to_onehot(logit_chunk_gpu)
                 pred_cpu[:, start_d:end_d, :, :] = pred_chunk_gpu.cpu()
 
-                loss_chunk = criterion(logit_chunk_gpu.unsqueeze(0), label_chunk_gpu.unsqueeze(0))
-                losses.append(loss_chunk.detach().item())
+                if criterion is not None:
+                    loss_chunk = criterion(logit_chunk_gpu.unsqueeze(0), label_chunk_gpu.unsqueeze(0))
+                    losses.append(loss_chunk.detach().item())
             predictions.append(pred_cpu)
 
         # compute loss
-        loss = sum(losses) / len(losses)
-
-        # compute dice metric on gpu
-        self.dice_metric(y_pred=predictions, y=labels_list)
-        acc = self.dice_metric.aggregate().numpy()
-        avg_acc = float(acc.mean()) * 100.0
+        if criterion is not None:
+            loss = sum(losses) / len(losses)
+        else:
+            loss = None
 
         return loss, avg_acc
 
